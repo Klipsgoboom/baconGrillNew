@@ -3,12 +3,11 @@
 
 -- Instances:
 
-local prisonLife = Instance.new("ScreenGui")
 local prisonlife = Instance.new("Frame")
 local close = Instance.new("TextButton")
 local minimize = Instance.new("TextButton")
 local TextLabel = Instance.new("TextLabel")
-local prisonLife_2 = Instance.new("ImageLabel")
+local prisonLife = Instance.new("ImageLabel")
 local line = Instance.new("Frame")
 local icon = Instance.new("ImageLabel")
 local File = Instance.new("TextButton")
@@ -29,12 +28,8 @@ local godMode = Instance.new("TextButton")
 
 --Properties:
 
-prisonLife.Name = "prisonLife"
-prisonLife.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
-prisonLife.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-
 prisonlife.Name = "prisonlife"
-prisonlife.Parent = prisonLife
+prisonlife.Parent = game.StarterGui["win10mode"]
 prisonlife.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 prisonlife.BorderColor3 = Color3.fromRGB(74, 74, 74)
 prisonlife.Position = UDim2.new(0.0459862724, 0, 0.202871323, 0)
@@ -75,13 +70,13 @@ TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel.TextSize = 14.000
 TextLabel.TextXAlignment = Enum.TextXAlignment.Left
 
-prisonLife_2.Name = "prisonLife"
-prisonLife_2.Parent = prisonlife
-prisonLife_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-prisonLife_2.BorderColor3 = Color3.fromRGB(255, 255, 255)
-prisonLife_2.Position = UDim2.new(0.00560920406, 0, 0.00733577227, 0)
-prisonLife_2.Size = UDim2.new(0, 19, 0, 20)
-prisonLife_2.Image = "http://www.roblox.com/asset/?id=18241895562"
+prisonLife.Name = "prisonLife"
+prisonLife.Parent = prisonlife
+prisonLife.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+prisonLife.BorderColor3 = Color3.fromRGB(255, 255, 255)
+prisonLife.Position = UDim2.new(0.00560920406, 0, 0.00733577227, 0)
+prisonLife.Size = UDim2.new(0, 19, 0, 20)
+prisonLife.Image = "http://www.roblox.com/asset/?id=18241895562"
 
 line.Name = "line"
 line.Parent = prisonlife
@@ -271,7 +266,7 @@ godMode.TextSize = 14.000
 
 -- Scripts:
 
-local function QBVLC_fake_script() -- prisonlife.LocalScript 
+local function TNBGG_fake_script() -- prisonlife.LocalScript 
 	local script = Instance.new('LocalScript', prisonlife)
 
 	local dragger = {}; 
@@ -317,8 +312,8 @@ local function QBVLC_fake_script() -- prisonlife.LocalScript
 	script.Parent.Active = true
 	script.Parent.Draggable = true
 end
-coroutine.wrap(QBVLC_fake_script)()
-local function ZITWR_fake_script() -- close.LocalScript 
+coroutine.wrap(TNBGG_fake_script)()
+local function CZAMOXK_fake_script() -- close.LocalScript 
 	local script = Instance.new('LocalScript', close)
 
 	function Click(mouse)
@@ -336,8 +331,8 @@ local function ZITWR_fake_script() -- close.LocalScript
 	
 	
 end
-coroutine.wrap(ZITWR_fake_script)()
-local function GBAA_fake_script() -- minimize.script 
+coroutine.wrap(CZAMOXK_fake_script)()
+local function CXGFQ_fake_script() -- minimize.script 
 	local script = Instance.new('LocalScript', minimize)
 
 	function Click(mouse)
@@ -364,8 +359,8 @@ local function GBAA_fake_script() -- minimize.script
 	
 	
 end
-coroutine.wrap(GBAA_fake_script)()
-local function FFICMX_fake_script() -- AllGuns.LocalScript 
+coroutine.wrap(CXGFQ_fake_script)()
+local function HXECZ_fake_script() -- AllGuns.LocalScript 
 	local script = Instance.new('LocalScript', AllGuns)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -375,8 +370,8 @@ local function FFICMX_fake_script() -- AllGuns.LocalScript
 		end
 	end)
 end
-coroutine.wrap(FFICMX_fake_script)()
-local function RFEW_fake_script() -- Btools.LocalScript 
+coroutine.wrap(HXECZ_fake_script)()
+local function HGYYYYA_fake_script() -- Btools.LocalScript 
 	local script = Instance.new('LocalScript', Btools)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -386,8 +381,8 @@ local function RFEW_fake_script() -- Btools.LocalScript
 		tool2.BinType = "Hammer"
 	end)
 end
-coroutine.wrap(RFEW_fake_script)()
-local function EDSCH_fake_script() -- InfStamina.LocalScript 
+coroutine.wrap(HGYYYYA_fake_script)()
+local function DHYH_fake_script() -- InfStamina.LocalScript 
 	local script = Instance.new('LocalScript', InfStamina)
 
 	function Click(mouse)
@@ -420,8 +415,8 @@ local function EDSCH_fake_script() -- InfStamina.LocalScript
 	
 	script.Parent.MouseButton1Down:connect(Click)
 end
-coroutine.wrap(EDSCH_fake_script)()
-local function IALPRX_fake_script() -- noClip.LocalScript 
+coroutine.wrap(DHYH_fake_script)()
+local function OKPBUF_fake_script() -- noClip.LocalScript 
 	local script = Instance.new('LocalScript', noClip)
 
 	function Click(mouse)
@@ -434,8 +429,8 @@ local function IALPRX_fake_script() -- noClip.LocalScript
 	script.Parent.MouseButton1Down:connect(Click)
 	
 end
-coroutine.wrap(IALPRX_fake_script)()
-local function APHN_fake_script() -- PoliceRoom.LocalScript 
+coroutine.wrap(OKPBUF_fake_script)()
+local function PZRTO_fake_script() -- PoliceRoom.LocalScript 
 	local script = Instance.new('LocalScript', PoliceRoom)
 
 	function Click(mouse)
@@ -445,8 +440,8 @@ local function APHN_fake_script() -- PoliceRoom.LocalScript
 	script.Parent.MouseButton1Down:connect(Click)
 	
 end
-coroutine.wrap(APHN_fake_script)()
-local function NJDK_fake_script() -- CrimBase.LocalScript 
+coroutine.wrap(PZRTO_fake_script)()
+local function KYUMDY_fake_script() -- CrimBase.LocalScript 
 	local script = Instance.new('LocalScript', CrimBase)
 
 	function Click(mouse)
@@ -455,8 +450,8 @@ local function NJDK_fake_script() -- CrimBase.LocalScript
 	script.Parent.MouseButton1Down:connect(Click)
 	
 end
-coroutine.wrap(NJDK_fake_script)()
-local function IXVGV_fake_script() -- godMode.LocalScript 
+coroutine.wrap(KYUMDY_fake_script)()
+local function BVHJSKM_fake_script() -- godMode.LocalScript 
 	local script = Instance.new('LocalScript', godMode)
 
 	function Click(mouse)
@@ -536,10 +531,10 @@ local function IXVGV_fake_script() -- godMode.LocalScript
 	script.Parent.MouseButton1Down:connect(Click)
 	
 end
-coroutine.wrap(IXVGV_fake_script)()
-local function JYQGX_fake_script() -- prisonlife.start 
+coroutine.wrap(BVHJSKM_fake_script)()
+local function WYKCSBV_fake_script() -- prisonlife.start 
 	local script = Instance.new('LocalScript', prisonlife)
 
 	script.Parent = script.Parent.Parent.Parent.win10mode
 end
-coroutine.wrap(JYQGX_fake_script)()
+coroutine.wrap(WYKCSBV_fake_script)()
