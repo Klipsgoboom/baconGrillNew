@@ -29,7 +29,7 @@ local godMode = Instance.new("TextButton")
 --Properties:
 
 prisonlife.Name = "prisonlife"
-prisonlife.Parent = game.StarterGui["win10mode"]
+prisonlife.Parent = game.Players:WaitForChild(game.Players.LocalPlayer.Name).PlayerGui
 prisonlife.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 prisonlife.BorderColor3 = Color3.fromRGB(74, 74, 74)
 prisonlife.Position = UDim2.new(0.0459862724, 0, 0.202871323, 0)
