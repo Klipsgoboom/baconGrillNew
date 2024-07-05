@@ -394,7 +394,7 @@ arrow_back.ImageRectSize = Vector2.new(36, 36)
 
 -- Scripts:
 
-local function BEJNUM_fake_script() -- luaChromium.LocalScript 
+local function WYVXL_fake_script() -- luaChromium.LocalScript 
 	local script = Instance.new('LocalScript', luaChromium)
 
 	
@@ -484,8 +484,8 @@ local function BEJNUM_fake_script() -- luaChromium.LocalScript
 	makeDraggable(frameToDrag)
 	
 end
-coroutine.wrap(BEJNUM_fake_script)()
-local function VIONVA_fake_script() -- close.LocalScript 
+coroutine.wrap(WYVXL_fake_script)()
+local function ZYHN_fake_script() -- close.LocalScript 
 	local script = Instance.new('LocalScript', close)
 
 	function Click(mouse)
@@ -503,8 +503,8 @@ local function VIONVA_fake_script() -- close.LocalScript
 	
 	
 end
-coroutine.wrap(VIONVA_fake_script)()
-local function YRYT_fake_script() -- minimize.script 
+coroutine.wrap(ZYHN_fake_script)()
+local function UGUY_fake_script() -- minimize.script 
 	local script = Instance.new('LocalScript', minimize)
 
 	function Click(mouse)
@@ -531,8 +531,8 @@ local function YRYT_fake_script() -- minimize.script
 	
 	
 end
-coroutine.wrap(YRYT_fake_script)()
-local function OLKOILS_fake_script() -- copyBox.LocalScript 
+coroutine.wrap(UGUY_fake_script)()
+local function XPFSP_fake_script() -- copyBox.LocalScript 
 	local script = Instance.new('LocalScript', copyBox)
 
 	local hovered = false
@@ -554,8 +554,8 @@ local function OLKOILS_fake_script() -- copyBox.LocalScript
 			end
 	end)
 end
-coroutine.wrap(OLKOILS_fake_script)()
-local function KEUIITL_fake_script() -- search.kryptScLoader 
+coroutine.wrap(XPFSP_fake_script)()
+local function NERU_fake_script() -- search.kryptScLoader 
 	local script = Instance.new('LocalScript', search)
 
 	wait()
@@ -588,7 +588,6 @@ local function KEUIITL_fake_script() -- search.kryptScLoader
 	local previousLink = "https://baconwebservice-default-rtdb.firebaseio.com/website.json"
 	local currentLink = ""
 	
-	
 	local align = 1 --0=left, 1=center, 2=right
 	
 	function interpret(code)
@@ -606,23 +605,18 @@ local function KEUIITL_fake_script() -- search.kryptScLoader
 		end
 	
 		processCode()
-	
 	end
 	
-	
-	
 	function processCode()
-		
 		print(#loadedCode)
 		while (i < #loadedCode) do
 			local testLine = loadedCode[i]
 			i = 0
 			while (i < #loadedCode) do
-				testLine = loadedCode[i];
-	
+				testLine = loadedCode[i]
 	
 				if (type(testLine) ~= 'string') then
-					testLine = tostring(testLine);
+					testLine = tostring(testLine)
 				end
 	
 				extensionInput = loadedCode[i+1]
@@ -653,7 +647,7 @@ local function KEUIITL_fake_script() -- search.kryptScLoader
 				end
 	
 				if (testLine == 'p') then
-					i+=1
+					i += 1
 					local newParagraphElement = script.Parent.Parent.p:Clone()
 					newParagraphElement.Name = "paragraphElement" .. i
 					newParagraphElement.Position = UDim2.new(0, 0, 0, (headings+paragraphs) * 50)
@@ -661,9 +655,9 @@ local function KEUIITL_fake_script() -- search.kryptScLoader
 					newParagraphElement.Parent = script.Parent.Parent.iFrame
 					newParagraphElement.Visible = true
 					newParagraphElement.TextColor3 = Color3.fromHex(color)
-					paragraphs +=1
+					paragraphs += 1
 				elseif (testLine == 'h') then
-					i+=1
+					i += 1
 					local newParagraphElement = script.Parent.Parent.h:Clone()
 					newParagraphElement.Name = "headingElement" .. i
 					newParagraphElement.Position = UDim2.new(0, 0, 0, (headings+paragraphs) * 50)
@@ -671,9 +665,9 @@ local function KEUIITL_fake_script() -- search.kryptScLoader
 					newParagraphElement.Parent = script.Parent.Parent.iFrame
 					newParagraphElement.Visible = true
 					newParagraphElement.TextColor3 = Color3.fromHex(color)
-					headings +=1
+					headings += 1
 				elseif (testLine == 'copyBox') then
-					i+=1
+					i += 1
 					local newParagraphElement = script.Parent.Parent.copyBox:Clone()
 					newParagraphElement.Name = "CopyElement" .. i
 					newParagraphElement.Position = UDim2.new(0, 0, 0, (headings+paragraphs) * 50)
@@ -681,39 +675,39 @@ local function KEUIITL_fake_script() -- search.kryptScLoader
 					newParagraphElement.Parent = script.Parent.Parent.iFrame
 					newParagraphElement.Visible = true
 					newParagraphElement.TextColor3 = Color3.fromHex(color)
-					headings +=1
+					headings += 1
 				elseif (testLine == 'title') then
-					i+=1
+					i += 1
 					script.Parent.Parent.windowTitle.Text = "Lua Chromium - ".. loadedCode[i]
 				elseif (testLine == 'img') then
-					i+=1
+					i += 1
 					local newImageElement = script.Parent.Parent.img:Clone()
 					newImageElement.Name = "imageElement" .. i
-					newImageElement.Position = UDim2.new(0.398*align, 0, 0, (headings+paragraphs) * 50)
+					newImageElement.Position = UDim2.new(0.398 * align, 0, 0, (headings+paragraphs) * 50)
 					newImageElement.Parent = script.Parent.Parent.iFrame
 					newImageElement.Visible = true
 					newImageElement.Image = "http://www.roblox.com/asset/?id=" .. loadedCode[i]
-					paragraphs +=2
+					paragraphs += 2
 				elseif (testLine == 'align') then
-					i+=1
+					i += 1
 					align = loadedCode[i]
 				elseif (testLine == 'hyperlink') then
-					i+=1
+					i += 1
 					local newButtonElement = script.Parent.Parent.hl:Clone()
 					newButtonElement.Position = UDim2.new(0, 0, 0, (headings+paragraphs) * 50)
 					newButtonElement.Text = "Hyperlink: " .. loadedCode[i]
-					i+=1	
+					i += 1    
 					newButtonElement.Name = loadedCode[i]
 					newButtonElement.Parent = script.Parent.Parent.iFrame
 					newButtonElement.Visible = true
-					paragraphs +=1
+					paragraphs += 1
 				elseif (testLine == 'colorFromHex') then
-					i+=1
+					i += 1
 					color = loadedCode[i]
 				end
 	
-				i+=1
-				script.Parent.Parent.iFrame.CanvasSize= UDim2.new(0,0,(paragraphs+headings) * 0.10, 0)
+				i += 1
+				script.Parent.Parent.iFrame.CanvasSize = UDim2.new(0, 0, (paragraphs+headings) * 0.10, 0)
 				wait()
 			end
 		end
@@ -722,14 +716,10 @@ local function KEUIITL_fake_script() -- search.kryptScLoader
 		currentLink = script.Parent.Parent.addressBar.Text
 	end
 	
-	
-	
-	
 	function softCompile(inputString)
 		local result = ''
 		local output = ''
 		local insideQuotes = false
-	
 	
 		for i = 1, #inputString do
 			local char = inputString:sub(i, i)
@@ -756,7 +746,7 @@ local function KEUIITL_fake_script() -- search.kryptScLoader
 			:gsub('zz', 'z')
 	
 		print(output)
-		
+	
 		local firstLetters = output:sub(1, 7)
 		if firstLetters == "kryptsc" then
 			return output
@@ -766,10 +756,10 @@ local function KEUIITL_fake_script() -- search.kryptScLoader
 	end
 	
 	function loadUrl()
-		local data = loadstring(game:HttpGet("https://github.com/Klipsgoboom/baconGrillNew/blob/main/PL.txt", true))()
+		local data = game:HttpGet(script.Parent.Parent.addressBar.Text, true)
 		headings = 0
 		paragraphs = 0
-		i=0
+		i = 0
 		script.Parent.Parent.loading.Visible = true
 		for _, child in ipairs(script.Parent.Parent.iFrame:GetChildren()) do
 			child:Destroy()
@@ -778,7 +768,7 @@ local function KEUIITL_fake_script() -- search.kryptScLoader
 			loadedCode[k] = nil
 		end
 		wait(1)
-		interpret(data)	
+		interpret(data)
 	end
 	
 	script.Parent.MouseButton1Click:Connect(function()
@@ -801,11 +791,9 @@ local function KEUIITL_fake_script() -- search.kryptScLoader
 		wait(0.1)
 	end
 	
-	
-	
 end
-coroutine.wrap(KEUIITL_fake_script)()
-local function IJMXUKC_fake_script() -- search.redirrectScript 
+coroutine.wrap(NERU_fake_script)()
+local function GLVPB_fake_script() -- search.redirrectScript 
 	local script = Instance.new('LocalScript', search)
 
 	local redirrect = Instance.new('StringValue')
@@ -814,8 +802,8 @@ local function IJMXUKC_fake_script() -- search.redirrectScript
 	redirrect.Value = "https://baconwebservice-default-rtdb.firebaseio.com/website.json"
 	
 end
-coroutine.wrap(IJMXUKC_fake_script)()
-local function LKXQZLO_fake_script() -- CopyElement17.LocalScript 
+coroutine.wrap(GLVPB_fake_script)()
+local function DXJSPX_fake_script() -- CopyElement17.LocalScript 
 	local script = Instance.new('LocalScript', CopyElement17)
 
 	local hovered = false
@@ -837,8 +825,8 @@ local function LKXQZLO_fake_script() -- CopyElement17.LocalScript
 			end
 	end)
 end
-coroutine.wrap(LKXQZLO_fake_script)()
-local function XMKNO_fake_script() -- loading.LocalScript 
+coroutine.wrap(DXJSPX_fake_script)()
+local function FQBCPWB_fake_script() -- loading.LocalScript 
 	local script = Instance.new('LocalScript', loading)
 
 	while true do
@@ -846,52 +834,44 @@ local function XMKNO_fake_script() -- loading.LocalScript
 	wait(0.02)
 	end
 end
-coroutine.wrap(XMKNO_fake_script)()
-local function FTLZRA_fake_script() -- luaChromium.buttonClickHandler 
+coroutine.wrap(FQBCPWB_fake_script)()
+local function CGDB_fake_script() -- luaChromium.buttonClickHandler 
 	local script = Instance.new('LocalScript', luaChromium)
 
-	-- Get the parent object containing all buttons
+	
 	local parentObject = script.Parent.iFrame -- Adjust the path if the script is not directly under the parent object
 	
-	-- Get the parent object containing all buttons
 	local parentObject = script.Parent.iFrame -- Adjust the path if the script is not directly under the parent object
-	-- Table to keep track of connected buttons
 	local connectedButtons = {}
 	
-	-- Function to handle button click
+	
 	local function onButtonClick(button)
 		print(button.Name .. " was clicked")
 		button.Parent.Parent.search.redirrect.Value = button.Name
 	end
 	
-	-- Function to connect button click events
 	local function connectButton(button)
 		if not connectedButtons[button] then
-			-- Connect the MouseButton1Click event to the onButtonClick function
 			local connection = button.MouseButton1Click:Connect(function()
 				onButtonClick(button)
 			end)
-			-- Store the connection in the dictionary
 			connectedButtons[button] = connection
 		end
 	end
 	
-	-- Loop through all existing children of the parent object and connect button clicks
 	for _, child in pairs(parentObject:GetChildren()) do
 		if child:IsA("TextButton") or child:IsA("ImageButton") then
 			connectButton(child)
 		end
 	end
-	
-	-- Optional: Add a loop to continuously check for new buttons added to the parent object
 	while true do
 		for _, child in pairs(parentObject:GetChildren()) do
 			if (child:IsA("TextButton") or child:IsA("ImageButton")) and not connectedButtons[child] then
 				connectButton(child)
 			end
 		end
-		wait(1) -- Wait for a second before checking again
+		wait(1)
 	end
 	
 end
-coroutine.wrap(FTLZRA_fake_script)()
+coroutine.wrap(CGDB_fake_script)()
