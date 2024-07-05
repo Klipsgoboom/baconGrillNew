@@ -3,6 +3,7 @@
 
 -- Instances:
 
+local luaChromiumGUI = Instance.new("ScreenGui")
 local luaChromium = Instance.new("Frame")
 local close = Instance.new("TextButton")
 local minimize = Instance.new("TextButton")
@@ -36,8 +37,12 @@ local arrow_back = Instance.new("ImageButton")
 
 --Properties:
 
+luaChromiumGUI.Name = "luaChromiumGUI"
+luaChromiumGUI.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+luaChromiumGUI.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
 luaChromium.Name = "luaChromium"
-luaChromium.Parent = game.StarterGui["win10mode"]
+luaChromium.Parent = game.Players.LocalPlayer.PlayerGui.win10mode
 luaChromium.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 luaChromium.BorderColor3 = Color3.fromRGB(74, 74, 74)
 luaChromium.Position = UDim2.new(0.354276091, 0, 0.206593409, 0)
@@ -389,7 +394,7 @@ arrow_back.ImageRectSize = Vector2.new(36, 36)
 
 -- Scripts:
 
-local function UXWTLDX_fake_script() -- luaChromium.LocalScript 
+local function WWQI_fake_script() -- luaChromium.LocalScript 
 	local script = Instance.new('LocalScript', luaChromium)
 
 	
@@ -479,8 +484,8 @@ local function UXWTLDX_fake_script() -- luaChromium.LocalScript
 	makeDraggable(frameToDrag)
 	
 end
-coroutine.wrap(UXWTLDX_fake_script)()
-local function CXTZBO_fake_script() -- close.LocalScript 
+coroutine.wrap(WWQI_fake_script)()
+local function MRGZ_fake_script() -- close.LocalScript 
 	local script = Instance.new('LocalScript', close)
 
 	function Click(mouse)
@@ -498,8 +503,8 @@ local function CXTZBO_fake_script() -- close.LocalScript
 	
 	
 end
-coroutine.wrap(CXTZBO_fake_script)()
-local function FSMV_fake_script() -- minimize.script 
+coroutine.wrap(MRGZ_fake_script)()
+local function ALZGE_fake_script() -- minimize.script 
 	local script = Instance.new('LocalScript', minimize)
 
 	function Click(mouse)
@@ -526,8 +531,8 @@ local function FSMV_fake_script() -- minimize.script
 	
 	
 end
-coroutine.wrap(FSMV_fake_script)()
-local function HMLWFC_fake_script() -- copyBox.LocalScript 
+coroutine.wrap(ALZGE_fake_script)()
+local function EHZG_fake_script() -- copyBox.LocalScript 
 	local script = Instance.new('LocalScript', copyBox)
 
 	local hovered = false
@@ -549,8 +554,8 @@ local function HMLWFC_fake_script() -- copyBox.LocalScript
 			end
 	end)
 end
-coroutine.wrap(HMLWFC_fake_script)()
-local function SXMX_fake_script() -- search.kryptScLoader 
+coroutine.wrap(EHZG_fake_script)()
+local function WBWOV_fake_script() -- search.kryptScLoader 
 	local script = Instance.new('LocalScript', search)
 
 	wait()
@@ -592,7 +597,7 @@ local function SXMX_fake_script() -- search.kryptScLoader
 		print("interpret time! " .. string.len(inputString))
 	
 		local l = 1
-		local line = ''
+		local line
 		for line in string.gmatch(inputString, "([^z]*)z") do
 			if line ~= "" then
 				loadedCode[linesSet] = line
@@ -799,8 +804,8 @@ local function SXMX_fake_script() -- search.kryptScLoader
 	
 	
 end
-coroutine.wrap(SXMX_fake_script)()
-local function QOHUMZ_fake_script() -- search.redirrectScript 
+coroutine.wrap(WBWOV_fake_script)()
+local function BKTVT_fake_script() -- search.redirrectScript 
 	local script = Instance.new('LocalScript', search)
 
 	local redirrect = Instance.new('StringValue')
@@ -809,8 +814,8 @@ local function QOHUMZ_fake_script() -- search.redirrectScript
 	redirrect.Value = "https://baconwebservice-default-rtdb.firebaseio.com/website.json"
 	
 end
-coroutine.wrap(QOHUMZ_fake_script)()
-local function MPKW_fake_script() -- CopyElement17.LocalScript 
+coroutine.wrap(BKTVT_fake_script)()
+local function LIUT_fake_script() -- CopyElement17.LocalScript 
 	local script = Instance.new('LocalScript', CopyElement17)
 
 	local hovered = false
@@ -832,8 +837,8 @@ local function MPKW_fake_script() -- CopyElement17.LocalScript
 			end
 	end)
 end
-coroutine.wrap(MPKW_fake_script)()
-local function YFAEMZ_fake_script() -- loading.LocalScript 
+coroutine.wrap(LIUT_fake_script)()
+local function FTAX_fake_script() -- loading.LocalScript 
 	local script = Instance.new('LocalScript', loading)
 
 	while true do
@@ -841,8 +846,8 @@ local function YFAEMZ_fake_script() -- loading.LocalScript
 	wait(0.02)
 	end
 end
-coroutine.wrap(YFAEMZ_fake_script)()
-local function GQYNO_fake_script() -- luaChromium.buttonClickHandler 
+coroutine.wrap(FTAX_fake_script)()
+local function EHAV_fake_script() -- luaChromium.buttonClickHandler 
 	local script = Instance.new('LocalScript', luaChromium)
 
 	-- Get the parent object containing all buttons
@@ -889,4 +894,4 @@ local function GQYNO_fake_script() -- luaChromium.buttonClickHandler
 	end
 	
 end
-coroutine.wrap(GQYNO_fake_script)()
+coroutine.wrap(EHAV_fake_script)()
