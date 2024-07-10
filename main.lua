@@ -16,7 +16,7 @@ local prisonlife = Instance.new("ImageButton")
 local jailbreak = Instance.new("ImageButton")
 local Esp = Instance.new("ImageButton")
 local TextLabel = Instance.new("TextLabel")
-local settings = Instance.new("ImageButton")+
+local settings = Instance.new("ImageButton")
 local baconStore_2 = Instance.new("ImageButton")
 local jailbreak_2 = Instance.new("ImageButton")
 local luaChromium_2 = Instance.new("ImageButton")
@@ -40,53 +40,35 @@ local View = Instance.new("TextButton")
 local Help = Instance.new("TextButton")
 local ESP = Instance.new("TextButton")
 local icon = Instance.new("ImageLabel")
-local baconStore_3 = Instance.new("Frame")
+local jailbreak_3 = Instance.new("Frame")
 local close_2 = Instance.new("TextButton")
 local minimize_2 = Instance.new("TextButton")
 local TextLabel_3 = Instance.new("TextLabel")
-local win10emblem = Instance.new("ImageLabel")
-local window = Instance.new("Frame")
-local prisonlife_3 = Instance.new("TextButton")
-local godmode = Instance.new("TextButton")
-local buildaboat = Instance.new("TextButton")
-local disabletaskbar = Instance.new("TextButton")
-local enabletaskbar = Instance.new("TextButton")
-local jailbreak_3 = Instance.new("TextButton")
-local mm2_3 = Instance.new("TextButton")
-local Browser = Instance.new("TextButton")
-local aimbot = Instance.new("TextButton")
-local fly = Instance.new("TextButton")
-local TextLabel_4 = Instance.new("TextLabel")
-local icon_2 = Instance.new("ImageLabel")
-local jailbreak_4 = Instance.new("Frame")
-local close_3 = Instance.new("TextButton")
-local minimize_3 = Instance.new("TextButton")
-local TextLabel_5 = Instance.new("TextLabel")
 local jbLogo = Instance.new("ImageLabel")
-local window_2 = Instance.new("Frame")
+local window = Instance.new("Frame")
 local carSuspension = Instance.new("TextButton")
 local suspensionHeight = Instance.new("TextBox")
+local TextLabel_4 = Instance.new("TextLabel")
+local TextLabel_5 = Instance.new("TextLabel")
 local TextLabel_6 = Instance.new("TextLabel")
-local TextLabel_7 = Instance.new("TextLabel")
-local TextLabel_8 = Instance.new("TextLabel")
 local speed = Instance.new("TextBox")
-local icon_3 = Instance.new("ImageLabel")
+local icon_2 = Instance.new("ImageLabel")
 local music_3 = Instance.new("Frame")
-local close_4 = Instance.new("TextButton")
-local minimize_4 = Instance.new("TextButton")
+local close_3 = Instance.new("TextButton")
+local minimize_3 = Instance.new("TextButton")
 local windowTitle = Instance.new("TextLabel")
-local window_3 = Instance.new("Frame")
+local window_2 = Instance.new("Frame")
 local Home = Instance.new("TextLabel")
 local hyperlink = Instance.new("TextLabel")
 local musicPlayerText = Instance.new("TextLabel")
 local audioIdText = Instance.new("TextLabel")
 local audioBox = Instance.new("TextBox")
 local play = Instance.new("ImageButton")
-local icon_4 = Instance.new("ImageLabel")
+local icon_3 = Instance.new("ImageLabel")
 local notepad_4 = Instance.new("Frame")
-local close_5 = Instance.new("TextButton")
-local minimize_5 = Instance.new("TextButton")
-local TextLabel_9 = Instance.new("TextLabel")
+local close_4 = Instance.new("TextButton")
+local minimize_4 = Instance.new("TextButton")
+local TextLabel_7 = Instance.new("TextLabel")
 local notepad_5 = Instance.new("ImageLabel")
 local line_2 = Instance.new("Frame")
 local File_2 = Instance.new("TextButton")
@@ -96,12 +78,12 @@ local View_2 = Instance.new("TextButton")
 local Help_2 = Instance.new("TextButton")
 local ScrollingFrame = Instance.new("ScrollingFrame")
 local TextBox = Instance.new("TextBox")
-local icon_5 = Instance.new("ImageLabel")
+local icon_4 = Instance.new("ImageLabel")
 local settings_3 = Instance.new("Frame")
-local close_6 = Instance.new("TextButton")
-local minimize_6 = Instance.new("TextButton")
+local close_5 = Instance.new("TextButton")
+local minimize_5 = Instance.new("TextButton")
 local windowTitle_2 = Instance.new("TextLabel")
-local window_4 = Instance.new("Frame")
+local window_3 = Instance.new("Frame")
 local walkspeedButton = Instance.new("TextButton")
 local walkspeedValue = Instance.new("TextBox")
 local flight = Instance.new("TextLabel")
@@ -112,14 +94,14 @@ local spinValue = Instance.new("TextBox")
 local spinButton = Instance.new("TextButton")
 local flight_2 = Instance.new("TextLabel")
 local fullbright = Instance.new("TextButton")
-local TextLabel_10 = Instance.new("TextLabel")
-local TextLabel_11 = Instance.new("TextLabel")
-local icon_6 = Instance.new("ImageLabel")
+local TextLabel_8 = Instance.new("TextLabel")
+local TextLabel_9 = Instance.new("TextLabel")
+local icon_5 = Instance.new("ImageLabel")
 local notepad_6 = Instance.new("ImageLabel")
-local mm2_4 = Instance.new("Frame")
-local close_7 = Instance.new("TextButton")
-local minimize_7 = Instance.new("TextButton")
-local TextLabel_12 = Instance.new("TextLabel")
+local mm2_3 = Instance.new("Frame")
+local close_6 = Instance.new("TextButton")
+local minimize_6 = Instance.new("TextButton")
+local TextLabel_10 = Instance.new("TextLabel")
 local notepad_7 = Instance.new("ImageLabel")
 local line_3 = Instance.new("Frame")
 local File_3 = Instance.new("TextButton")
@@ -129,7 +111,7 @@ local View_3 = Instance.new("TextButton")
 local Help_3 = Instance.new("TextButton")
 local ESP_2 = Instance.new("TextButton")
 local Pattern = Instance.new("ImageLabel")
-local icon_7 = Instance.new("ImageLabel")
+local icon_6 = Instance.new("ImageLabel")
 
 --Properties:
 
@@ -493,16 +475,16 @@ icon.Size = UDim2.new(0, 17, 0, 20)
 icon.Visible = false
 icon.Image = "http://www.roblox.com/asset/?id=18277463198"
 
-baconStore_3.Name = "baconStore"
-baconStore_3.Parent = win10mode
-baconStore_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-baconStore_3.BorderColor3 = Color3.fromRGB(255, 255, 255)
-baconStore_3.Position = UDim2.new(0.469233721, 0, 0.259943277, 0)
-baconStore_3.Size = UDim2.new(0, 490, 0, 306)
-baconStore_3.Visible = false
+jailbreak_3.Name = "jailbreak"
+jailbreak_3.Parent = win10mode
+jailbreak_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+jailbreak_3.BorderColor3 = Color3.fromRGB(255, 255, 255)
+jailbreak_3.Position = UDim2.new(0.250186086, 0, 0.277312994, 0)
+jailbreak_3.Size = UDim2.new(0, 490, 0, 306)
+jailbreak_3.Visible = false
 
 close_2.Name = "close"
-close_2.Parent = baconStore_3
+close_2.Parent = jailbreak_3
 close_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 close_2.BorderColor3 = Color3.fromRGB(255, 255, 255)
 close_2.Position = UDim2.new(0.940816402, 0, 0, 0)
@@ -513,7 +495,7 @@ close_2.TextColor3 = Color3.fromRGB(0, 0, 0)
 close_2.TextSize = 14.000
 
 minimize_2.Name = "minimize"
-minimize_2.Parent = baconStore_3
+minimize_2.Parent = jailbreak_3
 minimize_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 minimize_2.BorderColor3 = Color3.fromRGB(255, 255, 255)
 minimize_2.Position = UDim2.new(0.881632686, 0, 0, 0)
@@ -523,222 +505,35 @@ minimize_2.Text = "-"
 minimize_2.TextColor3 = Color3.fromRGB(0, 0, 0)
 minimize_2.TextSize = 29.000
 
-TextLabel_3.Parent = baconStore_3
+TextLabel_3.Parent = jailbreak_3
 TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_3.BackgroundTransparency = 1.000
 TextLabel_3.BorderColor3 = Color3.fromRGB(27, 42, 53)
-TextLabel_3.Position = UDim2.new(0.0285714287, 0, 0, 0)
-TextLabel_3.Size = UDim2.new(0, 186, 0, 29)
+TextLabel_3.Position = UDim2.new(0.0877550989, 0, -0.00326797389, 0)
+TextLabel_3.Size = UDim2.new(0, 192, 0, 29)
 TextLabel_3.Font = Enum.Font.SourceSans
-TextLabel_3.Text = "Bacon Scripts"
+TextLabel_3.Text = "Jailbreak"
 TextLabel_3.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel_3.TextSize = 14.000
 TextLabel_3.TextXAlignment = Enum.TextXAlignment.Left
 
-win10emblem.Name = "win10 emblem"
-win10emblem.Parent = baconStore_3
-win10emblem.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-win10emblem.BorderColor3 = Color3.fromRGB(255, 255, 255)
-win10emblem.Position = UDim2.new(0.193877548, 0, 0.0130718956, 0)
-win10emblem.Size = UDim2.new(0, 17, 0, 20)
-win10emblem.Image = "http://www.roblox.com/asset/?id=893125015"
-
-window.Name = "window"
-window.Parent = baconStore_3
-window.BackgroundColor3 = Color3.fromRGB(241, 241, 241)
-window.BorderColor3 = Color3.fromRGB(241, 241, 241)
-window.Position = UDim2.new(0, 0, 0.0947712436, 0)
-window.Size = UDim2.new(0, 490, 0, 277)
-
-prisonlife_3.Name = "prison life"
-prisonlife_3.Parent = window
-prisonlife_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-prisonlife_3.BorderColor3 = Color3.fromRGB(27, 42, 53)
-prisonlife_3.Position = UDim2.new(0.0285714287, 0, 0.0361010805, 0)
-prisonlife_3.Size = UDim2.new(0, 70, 0, 50)
-prisonlife_3.Font = Enum.Font.SourceSans
-prisonlife_3.Text = "Prison Life"
-prisonlife_3.TextColor3 = Color3.fromRGB(0, 0, 0)
-prisonlife_3.TextSize = 14.000
-
-godmode.Name = "god mode"
-godmode.Parent = window
-godmode.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-godmode.BorderColor3 = Color3.fromRGB(27, 42, 53)
-godmode.Position = UDim2.new(0.193877533, 0, 0.0361010805, 0)
-godmode.Size = UDim2.new(0, 70, 0, 50)
-godmode.Font = Enum.Font.SourceSans
-godmode.Text = "God mode"
-godmode.TextColor3 = Color3.fromRGB(0, 0, 0)
-godmode.TextSize = 14.000
-
-buildaboat.Name = "build a boat"
-buildaboat.Parent = window
-buildaboat.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-buildaboat.BorderColor3 = Color3.fromRGB(27, 42, 53)
-buildaboat.Position = UDim2.new(0.359183669, 0, 0.0361010805, 0)
-buildaboat.Size = UDim2.new(0, 70, 0, 50)
-buildaboat.Font = Enum.Font.SourceSans
-buildaboat.Text = "Build a boat"
-buildaboat.TextColor3 = Color3.fromRGB(0, 0, 0)
-buildaboat.TextSize = 14.000
-
-disabletaskbar.Name = "disable taskbar"
-disabletaskbar.Parent = window
-disabletaskbar.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-disabletaskbar.BorderColor3 = Color3.fromRGB(27, 42, 53)
-disabletaskbar.Position = UDim2.new(0.779591799, 0, 0.785351872, 0)
-disabletaskbar.Size = UDim2.new(0, 97, 0, 50)
-disabletaskbar.Font = Enum.Font.SourceSans
-disabletaskbar.Text = "disable taskbar"
-disabletaskbar.TextColor3 = Color3.fromRGB(0, 0, 0)
-disabletaskbar.TextSize = 14.000
-
-enabletaskbar.Name = "enable taskbar"
-enabletaskbar.Parent = window
-enabletaskbar.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-enabletaskbar.BorderColor3 = Color3.fromRGB(27, 42, 53)
-enabletaskbar.Position = UDim2.new(0.779591858, 0, 0.563766778, 0)
-enabletaskbar.Size = UDim2.new(0, 97, 0, 50)
-enabletaskbar.Font = Enum.Font.SourceSans
-enabletaskbar.Text = "Enable taskbar"
-enabletaskbar.TextColor3 = Color3.fromRGB(0, 0, 0)
-enabletaskbar.TextSize = 14.000
-
-jailbreak_3.Name = "jailbreak"
-jailbreak_3.Parent = window
-jailbreak_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-jailbreak_3.BorderColor3 = Color3.fromRGB(27, 42, 53)
-jailbreak_3.Position = UDim2.new(0.52448976, 0, 0.0361010805, 0)
-jailbreak_3.Size = UDim2.new(0, 70, 0, 50)
-jailbreak_3.Font = Enum.Font.SourceSans
-jailbreak_3.Text = "Jailbreak"
-jailbreak_3.TextColor3 = Color3.fromRGB(0, 0, 0)
-jailbreak_3.TextSize = 14.000
-
-mm2_3.Name = "mm2"
-mm2_3.Parent = window
-mm2_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-mm2_3.BorderColor3 = Color3.fromRGB(27, 42, 53)
-mm2_3.Position = UDim2.new(0.0285713673, 0, 0.241877258, 0)
-mm2_3.Size = UDim2.new(0, 70, 0, 50)
-mm2_3.Font = Enum.Font.SourceSans
-mm2_3.Text = "mm2"
-mm2_3.TextColor3 = Color3.fromRGB(0, 0, 0)
-mm2_3.TextSize = 14.000
-
-Browser.Name = "Browser"
-Browser.Parent = window
-Browser.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Browser.BorderColor3 = Color3.fromRGB(27, 42, 53)
-Browser.Position = UDim2.new(0.193877488, 0, 0.241877258, 0)
-Browser.Size = UDim2.new(0, 70, 0, 50)
-Browser.Font = Enum.Font.SourceSans
-Browser.Text = "Browser"
-Browser.TextColor3 = Color3.fromRGB(0, 0, 0)
-Browser.TextSize = 14.000
-
-aimbot.Name = "aimbot"
-aimbot.Parent = window
-aimbot.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-aimbot.BorderColor3 = Color3.fromRGB(27, 42, 53)
-aimbot.Position = UDim2.new(0.359183669, 0, 0.241877258, 0)
-aimbot.Size = UDim2.new(0, 70, 0, 50)
-aimbot.Font = Enum.Font.SourceSans
-aimbot.Text = "AimBot"
-aimbot.TextColor3 = Color3.fromRGB(0, 0, 0)
-aimbot.TextSize = 14.000
-
-fly.Name = "fly"
-fly.Parent = window
-fly.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-fly.BorderColor3 = Color3.fromRGB(27, 42, 53)
-fly.Position = UDim2.new(0.551020384, 0, 0.783393502, 0)
-fly.Size = UDim2.new(0, 101, 0, 50)
-fly.Font = Enum.Font.SourceSans
-fly.Text = "Fly ( E to Toggle)"
-fly.TextColor3 = Color3.fromRGB(0, 0, 0)
-fly.TextSize = 14.000
-
-TextLabel_4.Parent = window
-TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_4.BackgroundTransparency = 1.000
-TextLabel_4.BorderColor3 = Color3.fromRGB(27, 42, 53)
-TextLabel_4.Position = UDim2.new(0.359183669, 0, 0.422382683, 0)
-TextLabel_4.Size = UDim2.new(0, 70, 0, 25)
-TextLabel_4.Font = Enum.Font.SourceSans
-TextLabel_4.Text = "Toggle with E"
-TextLabel_4.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_4.TextSize = 14.000
-
-icon_2.Name = "icon"
-icon_2.Parent = baconStore_3
-icon_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-icon_2.BorderColor3 = Color3.fromRGB(255, 255, 255)
-icon_2.Position = UDim2.new(0.193877548, 0, 0.0130718956, 0)
-icon_2.Size = UDim2.new(0, 17, 0, 20)
-icon_2.Visible = false
-icon_2.Image = "http://www.roblox.com/asset/?id=2692388932"
-
-jailbreak_4.Name = "jailbreak"
-jailbreak_4.Parent = win10mode
-jailbreak_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-jailbreak_4.BorderColor3 = Color3.fromRGB(255, 255, 255)
-jailbreak_4.Position = UDim2.new(0.250186086, 0, 0.277312994, 0)
-jailbreak_4.Size = UDim2.new(0, 490, 0, 306)
-jailbreak_4.Visible = false
-
-close_3.Name = "close"
-close_3.Parent = jailbreak_4
-close_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-close_3.BorderColor3 = Color3.fromRGB(255, 255, 255)
-close_3.Position = UDim2.new(0.940816402, 0, 0, 0)
-close_3.Size = UDim2.new(0, 29, 0, 24)
-close_3.Font = Enum.Font.SourceSans
-close_3.Text = "X"
-close_3.TextColor3 = Color3.fromRGB(0, 0, 0)
-close_3.TextSize = 14.000
-
-minimize_3.Name = "minimize"
-minimize_3.Parent = jailbreak_4
-minimize_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-minimize_3.BorderColor3 = Color3.fromRGB(255, 255, 255)
-minimize_3.Position = UDim2.new(0.881632686, 0, 0, 0)
-minimize_3.Size = UDim2.new(0, 29, 0, 24)
-minimize_3.Font = Enum.Font.SourceSans
-minimize_3.Text = "-"
-minimize_3.TextColor3 = Color3.fromRGB(0, 0, 0)
-minimize_3.TextSize = 29.000
-
-TextLabel_5.Parent = jailbreak_4
-TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_5.BackgroundTransparency = 1.000
-TextLabel_5.BorderColor3 = Color3.fromRGB(27, 42, 53)
-TextLabel_5.Position = UDim2.new(0.0877550989, 0, -0.00326797389, 0)
-TextLabel_5.Size = UDim2.new(0, 192, 0, 29)
-TextLabel_5.Font = Enum.Font.SourceSans
-TextLabel_5.Text = "Jailbreak"
-TextLabel_5.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_5.TextSize = 14.000
-TextLabel_5.TextXAlignment = Enum.TextXAlignment.Left
-
 jbLogo.Name = "jbLogo"
-jbLogo.Parent = jailbreak_4
+jbLogo.Parent = jailbreak_3
 jbLogo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 jbLogo.BorderColor3 = Color3.fromRGB(255, 255, 255)
 jbLogo.Position = UDim2.new(0.0285714287, 0, 0.0130718956, 0)
 jbLogo.Size = UDim2.new(0, 22, 0, 20)
 jbLogo.Image = "http://www.roblox.com/asset/?id=18246230914"
 
-window_2.Name = "window"
-window_2.Parent = jailbreak_4
-window_2.BackgroundColor3 = Color3.fromRGB(241, 241, 241)
-window_2.BorderColor3 = Color3.fromRGB(241, 241, 241)
-window_2.Position = UDim2.new(0, 0, 0.0947712436, 0)
-window_2.Size = UDim2.new(0, 490, 0, 277)
+window.Name = "window"
+window.Parent = jailbreak_3
+window.BackgroundColor3 = Color3.fromRGB(241, 241, 241)
+window.BorderColor3 = Color3.fromRGB(241, 241, 241)
+window.Position = UDim2.new(0, 0, 0.0947712436, 0)
+window.Size = UDim2.new(0, 490, 0, 277)
 
 carSuspension.Name = "carSuspension"
-carSuspension.Parent = window_2
+carSuspension.Parent = window
 carSuspension.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 carSuspension.BorderColor3 = Color3.fromRGB(27, 42, 53)
 carSuspension.Position = UDim2.new(0.0285714287, 0, 0.779783368, 0)
@@ -749,7 +544,7 @@ carSuspension.TextColor3 = Color3.fromRGB(0, 0, 0)
 carSuspension.TextSize = 14.000
 
 suspensionHeight.Name = "suspensionHeight"
-suspensionHeight.Parent = window_2
+suspensionHeight.Parent = window
 suspensionHeight.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 suspensionHeight.BorderColor3 = Color3.fromRGB(0, 0, 0)
 suspensionHeight.Position = UDim2.new(0.295918375, 0, 0.162454873, 0)
@@ -759,43 +554,43 @@ suspensionHeight.Text = "5"
 suspensionHeight.TextColor3 = Color3.fromRGB(0, 0, 0)
 suspensionHeight.TextSize = 14.000
 
-TextLabel_6.Parent = window_2
+TextLabel_4.Parent = window
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.BorderSizePixel = 0
+TextLabel_4.Position = UDim2.new(0.0285714287, 0, 0, 0)
+TextLabel_4.Size = UDim2.new(0, 179, 0, 32)
+TextLabel_4.Font = Enum.Font.SourceSans
+TextLabel_4.Text = "Car mods"
+TextLabel_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.TextSize = 24.000
+TextLabel_4.TextXAlignment = Enum.TextXAlignment.Left
+
+TextLabel_5.Parent = window
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_5.BorderSizePixel = 0
+TextLabel_5.Position = UDim2.new(0.0285714287, 0, 0.162454873, 0)
+TextLabel_5.Size = UDim2.new(0, 114, 0, 25)
+TextLabel_5.Font = Enum.Font.SourceSans
+TextLabel_5.Text = "Suspension height:"
+TextLabel_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_5.TextSize = 14.000
+
+TextLabel_6.Parent = window
 TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_6.BackgroundTransparency = 1.000
 TextLabel_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel_6.BorderSizePixel = 0
-TextLabel_6.Position = UDim2.new(0.0285714287, 0, 0, 0)
-TextLabel_6.Size = UDim2.new(0, 179, 0, 32)
+TextLabel_6.Position = UDim2.new(0.0285714287, 0, 0.299638987, 0)
+TextLabel_6.Size = UDim2.new(0, 114, 0, 25)
 TextLabel_6.Font = Enum.Font.SourceSans
-TextLabel_6.Text = "Car mods"
+TextLabel_6.Text = "Car Speed:"
 TextLabel_6.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_6.TextSize = 24.000
-TextLabel_6.TextXAlignment = Enum.TextXAlignment.Left
-
-TextLabel_7.Parent = window_2
-TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_7.BorderSizePixel = 0
-TextLabel_7.Position = UDim2.new(0.0285714287, 0, 0.162454873, 0)
-TextLabel_7.Size = UDim2.new(0, 114, 0, 25)
-TextLabel_7.Font = Enum.Font.SourceSans
-TextLabel_7.Text = "Suspension height:"
-TextLabel_7.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_7.TextSize = 14.000
-
-TextLabel_8.Parent = window_2
-TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_8.BorderSizePixel = 0
-TextLabel_8.Position = UDim2.new(0.0285714287, 0, 0.299638987, 0)
-TextLabel_8.Size = UDim2.new(0, 114, 0, 25)
-TextLabel_8.Font = Enum.Font.SourceSans
-TextLabel_8.Text = "Car Speed:"
-TextLabel_8.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_8.TextSize = 14.000
+TextLabel_6.TextSize = 14.000
 
 speed.Name = "speed"
-speed.Parent = window_2
+speed.Parent = window
 speed.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 speed.BorderColor3 = Color3.fromRGB(0, 0, 0)
 speed.Position = UDim2.new(0.295918375, 0, 0.299638987, 0)
@@ -805,14 +600,14 @@ speed.Text = "100"
 speed.TextColor3 = Color3.fromRGB(0, 0, 0)
 speed.TextSize = 14.000
 
-icon_3.Name = "icon"
-icon_3.Parent = jailbreak_4
-icon_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-icon_3.BorderColor3 = Color3.fromRGB(255, 255, 255)
-icon_3.Position = UDim2.new(0.193877548, 0, 0.0130718956, 0)
-icon_3.Size = UDim2.new(0, 17, 0, 20)
-icon_3.Visible = false
-icon_3.Image = "http://www.roblox.com/asset/?id=18246230914"
+icon_2.Name = "icon"
+icon_2.Parent = jailbreak_3
+icon_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+icon_2.BorderColor3 = Color3.fromRGB(255, 255, 255)
+icon_2.Position = UDim2.new(0.193877548, 0, 0.0130718956, 0)
+icon_2.Size = UDim2.new(0, 17, 0, 20)
+icon_2.Visible = false
+icon_2.Image = "http://www.roblox.com/asset/?id=18246230914"
 
 music_3.Name = "music"
 music_3.Parent = win10mode
@@ -822,27 +617,27 @@ music_3.Position = UDim2.new(0.364470333, 0, 0.206593409, 0)
 music_3.Size = UDim2.new(0, 923, 0, 561)
 music_3.Visible = false
 
-close_4.Name = "close"
-close_4.Parent = music_3
-close_4.BackgroundColor3 = Color3.fromRGB(241, 241, 241)
-close_4.BorderColor3 = Color3.fromRGB(241, 241, 241)
-close_4.Position = UDim2.new(0.967902005, 0, 0, 0)
-close_4.Size = UDim2.new(0, 29, 0, 24)
-close_4.Font = Enum.Font.SourceSans
-close_4.Text = "X"
-close_4.TextColor3 = Color3.fromRGB(0, 0, 0)
-close_4.TextSize = 14.000
+close_3.Name = "close"
+close_3.Parent = music_3
+close_3.BackgroundColor3 = Color3.fromRGB(241, 241, 241)
+close_3.BorderColor3 = Color3.fromRGB(241, 241, 241)
+close_3.Position = UDim2.new(0.967902005, 0, 0, 0)
+close_3.Size = UDim2.new(0, 29, 0, 24)
+close_3.Font = Enum.Font.SourceSans
+close_3.Text = "X"
+close_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+close_3.TextSize = 14.000
 
-minimize_4.Name = "minimize"
-minimize_4.Parent = music_3
-minimize_4.BackgroundColor3 = Color3.fromRGB(241, 241, 241)
-minimize_4.BorderColor3 = Color3.fromRGB(241, 241, 241)
-minimize_4.Position = UDim2.new(0.935803831, 0, 0, 0)
-minimize_4.Size = UDim2.new(0, 29, 0, 24)
-minimize_4.Font = Enum.Font.SourceSans
-minimize_4.Text = "-"
-minimize_4.TextColor3 = Color3.fromRGB(0, 0, 0)
-minimize_4.TextSize = 29.000
+minimize_3.Name = "minimize"
+minimize_3.Parent = music_3
+minimize_3.BackgroundColor3 = Color3.fromRGB(241, 241, 241)
+minimize_3.BorderColor3 = Color3.fromRGB(241, 241, 241)
+minimize_3.Position = UDim2.new(0.935803831, 0, 0, 0)
+minimize_3.Size = UDim2.new(0, 29, 0, 24)
+minimize_3.Font = Enum.Font.SourceSans
+minimize_3.Text = "-"
+minimize_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+minimize_3.TextSize = 29.000
 
 windowTitle.Name = "windowTitle"
 windowTitle.Parent = music_3
@@ -857,12 +652,12 @@ windowTitle.TextColor3 = Color3.fromRGB(0, 0, 0)
 windowTitle.TextSize = 14.000
 windowTitle.TextXAlignment = Enum.TextXAlignment.Left
 
-window_3.Name = "window"
-window_3.Parent = music_3
-window_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-window_3.BorderColor3 = Color3.fromRGB(255, 255, 255)
-window_3.Position = UDim2.new(0.270855904, 0, 0.051693406, 0)
-window_3.Size = UDim2.new(0, 673, 0, 532)
+window_2.Name = "window"
+window_2.Parent = music_3
+window_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+window_2.BorderColor3 = Color3.fromRGB(255, 255, 255)
+window_2.Position = UDim2.new(0.270855904, 0, 0.051693406, 0)
+window_2.Size = UDim2.new(0, 673, 0, 532)
 
 Home.Name = "Home"
 Home.Parent = music_3
@@ -944,14 +739,14 @@ play.Position = UDim2.new(0.594799578, 0, 0.844919801, 0)
 play.Size = UDim2.new(0, 74, 0, 74)
 play.Image = "http://www.roblox.com/asset/?id=18237262517"
 
-icon_4.Name = "icon"
-icon_4.Parent = music_3
-icon_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-icon_4.BorderColor3 = Color3.fromRGB(255, 255, 255)
-icon_4.Position = UDim2.new(0.193877548, 0, 0.0130718956, 0)
-icon_4.Size = UDim2.new(0, 17, 0, 20)
-icon_4.Visible = false
-icon_4.Image = "http://www.roblox.com/asset/?id=18238210524"
+icon_3.Name = "icon"
+icon_3.Parent = music_3
+icon_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+icon_3.BorderColor3 = Color3.fromRGB(255, 255, 255)
+icon_3.Position = UDim2.new(0.193877548, 0, 0.0130718956, 0)
+icon_3.Size = UDim2.new(0, 17, 0, 20)
+icon_3.Visible = false
+icon_3.Image = "http://www.roblox.com/asset/?id=18238210524"
 
 notepad_4.Name = "notepad"
 notepad_4.Parent = win10mode
@@ -961,39 +756,39 @@ notepad_4.Position = UDim2.new(0.48824513, 0, 0.225203827, 0)
 notepad_4.Size = UDim2.new(0, 668, 0, 523)
 notepad_4.Visible = false
 
-close_5.Name = "close"
-close_5.Parent = notepad_4
-close_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-close_5.BorderColor3 = Color3.fromRGB(255, 255, 255)
-close_5.Position = UDim2.new(0.940816343, 0, 0.00733577227, 0)
-close_5.Size = UDim2.new(0, 29, 0, 24)
-close_5.Font = Enum.Font.SourceSans
-close_5.Text = "X"
-close_5.TextColor3 = Color3.fromRGB(0, 0, 0)
-close_5.TextSize = 14.000
+close_4.Name = "close"
+close_4.Parent = notepad_4
+close_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+close_4.BorderColor3 = Color3.fromRGB(255, 255, 255)
+close_4.Position = UDim2.new(0.940816343, 0, 0.00733577227, 0)
+close_4.Size = UDim2.new(0, 29, 0, 24)
+close_4.Font = Enum.Font.SourceSans
+close_4.Text = "X"
+close_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+close_4.TextSize = 14.000
 
-minimize_5.Name = "minimize"
-minimize_5.Parent = notepad_4
-minimize_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-minimize_5.BorderColor3 = Color3.fromRGB(255, 255, 255)
-minimize_5.Position = UDim2.new(0.881632745, 0, 0.00733577227, 0)
-minimize_5.Size = UDim2.new(0, 29, 0, 24)
-minimize_5.Font = Enum.Font.SourceSans
-minimize_5.Text = "-"
-minimize_5.TextColor3 = Color3.fromRGB(0, 0, 0)
-minimize_5.TextSize = 29.000
+minimize_4.Name = "minimize"
+minimize_4.Parent = notepad_4
+minimize_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+minimize_4.BorderColor3 = Color3.fromRGB(255, 255, 255)
+minimize_4.Position = UDim2.new(0.881632745, 0, 0.00733577227, 0)
+minimize_4.Size = UDim2.new(0, 29, 0, 24)
+minimize_4.Font = Enum.Font.SourceSans
+minimize_4.Text = "-"
+minimize_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+minimize_4.TextSize = 29.000
 
-TextLabel_9.Parent = notepad_4
-TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_9.BackgroundTransparency = 1.000
-TextLabel_9.BorderColor3 = Color3.fromRGB(27, 42, 53)
-TextLabel_9.Position = UDim2.new(0.0475253724, 0, 0, 0)
-TextLabel_9.Size = UDim2.new(0, 149, 0, 29)
-TextLabel_9.Font = Enum.Font.SourceSans
-TextLabel_9.Text = "Untitled - Notepad"
-TextLabel_9.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_9.TextSize = 14.000
-TextLabel_9.TextXAlignment = Enum.TextXAlignment.Left
+TextLabel_7.Parent = notepad_4
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.BackgroundTransparency = 1.000
+TextLabel_7.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_7.Position = UDim2.new(0.0475253724, 0, 0, 0)
+TextLabel_7.Size = UDim2.new(0, 149, 0, 29)
+TextLabel_7.Font = Enum.Font.SourceSans
+TextLabel_7.Text = "Untitled - Notepad"
+TextLabel_7.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_7.TextSize = 14.000
+TextLabel_7.TextXAlignment = Enum.TextXAlignment.Left
 
 notepad_5.Name = "notepad"
 notepad_5.Parent = notepad_4
@@ -1094,14 +889,14 @@ TextBox.TextWrapped = true
 TextBox.TextXAlignment = Enum.TextXAlignment.Left
 TextBox.TextYAlignment = Enum.TextYAlignment.Top
 
-icon_5.Name = "icon"
-icon_5.Parent = notepad_4
-icon_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-icon_5.BorderColor3 = Color3.fromRGB(255, 255, 255)
-icon_5.Position = UDim2.new(0.193877548, 0, 0.0130718956, 0)
-icon_5.Size = UDim2.new(0, 17, 0, 20)
-icon_5.Visible = false
-icon_5.Image = "http://www.roblox.com/asset/?id=18238710945"
+icon_4.Name = "icon"
+icon_4.Parent = notepad_4
+icon_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+icon_4.BorderColor3 = Color3.fromRGB(255, 255, 255)
+icon_4.Position = UDim2.new(0.193877548, 0, 0.0130718956, 0)
+icon_4.Size = UDim2.new(0, 17, 0, 20)
+icon_4.Visible = false
+icon_4.Image = "http://www.roblox.com/asset/?id=18238710945"
 
 settings_3.Name = "settings"
 settings_3.Parent = win10mode
@@ -1111,27 +906,27 @@ settings_3.Position = UDim2.new(0.205969363, 0, 0.150762141, 0)
 settings_3.Size = UDim2.new(0, 923, 0, 561)
 settings_3.Visible = false
 
-close_6.Name = "close"
-close_6.Parent = settings_3
-close_6.BackgroundColor3 = Color3.fromRGB(241, 241, 241)
-close_6.BorderColor3 = Color3.fromRGB(241, 241, 241)
-close_6.Position = UDim2.new(0.967902005, 0, 0, 0)
-close_6.Size = UDim2.new(0, 29, 0, 24)
-close_6.Font = Enum.Font.SourceSans
-close_6.Text = "X"
-close_6.TextColor3 = Color3.fromRGB(0, 0, 0)
-close_6.TextSize = 14.000
+close_5.Name = "close"
+close_5.Parent = settings_3
+close_5.BackgroundColor3 = Color3.fromRGB(241, 241, 241)
+close_5.BorderColor3 = Color3.fromRGB(241, 241, 241)
+close_5.Position = UDim2.new(0.967902005, 0, 0, 0)
+close_5.Size = UDim2.new(0, 29, 0, 24)
+close_5.Font = Enum.Font.SourceSans
+close_5.Text = "X"
+close_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+close_5.TextSize = 14.000
 
-minimize_6.Name = "minimize"
-minimize_6.Parent = settings_3
-minimize_6.BackgroundColor3 = Color3.fromRGB(241, 241, 241)
-minimize_6.BorderColor3 = Color3.fromRGB(241, 241, 241)
-minimize_6.Position = UDim2.new(0.935803831, 0, 0, 0)
-minimize_6.Size = UDim2.new(0, 29, 0, 24)
-minimize_6.Font = Enum.Font.SourceSans
-minimize_6.Text = "-"
-minimize_6.TextColor3 = Color3.fromRGB(0, 0, 0)
-minimize_6.TextSize = 29.000
+minimize_5.Name = "minimize"
+minimize_5.Parent = settings_3
+minimize_5.BackgroundColor3 = Color3.fromRGB(241, 241, 241)
+minimize_5.BorderColor3 = Color3.fromRGB(241, 241, 241)
+minimize_5.Position = UDim2.new(0.935803831, 0, 0, 0)
+minimize_5.Size = UDim2.new(0, 29, 0, 24)
+minimize_5.Font = Enum.Font.SourceSans
+minimize_5.Text = "-"
+minimize_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+minimize_5.TextSize = 29.000
 
 windowTitle_2.Name = "windowTitle"
 windowTitle_2.Parent = settings_3
@@ -1146,15 +941,15 @@ windowTitle_2.TextColor3 = Color3.fromRGB(0, 0, 0)
 windowTitle_2.TextSize = 14.000
 windowTitle_2.TextXAlignment = Enum.TextXAlignment.Left
 
-window_4.Name = "window"
-window_4.Parent = settings_3
-window_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-window_4.BorderColor3 = Color3.fromRGB(255, 255, 255)
-window_4.Position = UDim2.new(0, 0, 0.260249555, 0)
-window_4.Size = UDim2.new(0, 923, 0, 415)
+window_3.Name = "window"
+window_3.Parent = settings_3
+window_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+window_3.BorderColor3 = Color3.fromRGB(255, 255, 255)
+window_3.Position = UDim2.new(0, 0, 0.260249555, 0)
+window_3.Size = UDim2.new(0, 923, 0, 415)
 
 walkspeedButton.Name = "walkspeedButton"
-walkspeedButton.Parent = window_4
+walkspeedButton.Parent = window_3
 walkspeedButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 walkspeedButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
 walkspeedButton.Position = UDim2.new(0.0270855911, 0, 0.110843375, 0)
@@ -1165,7 +960,7 @@ walkspeedButton.TextColor3 = Color3.fromRGB(0, 0, 0)
 walkspeedButton.TextSize = 14.000
 
 walkspeedValue.Name = "walkspeedValue"
-walkspeedValue.Parent = window_4
+walkspeedValue.Parent = window_3
 walkspeedValue.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 walkspeedValue.BorderColor3 = Color3.fromRGB(0, 0, 0)
 walkspeedValue.Position = UDim2.new(0.0270855911, 0, 0.0578313246, 0)
@@ -1177,7 +972,7 @@ walkspeedValue.TextColor3 = Color3.fromRGB(0, 0, 0)
 walkspeedValue.TextSize = 14.000
 
 flight.Name = "flight"
-flight.Parent = window_4
+flight.Parent = window_3
 flight.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 flight.BackgroundTransparency = 1.000
 flight.BorderColor3 = Color3.fromRGB(0, 0, 0)
@@ -1190,7 +985,7 @@ flight.TextColor3 = Color3.fromRGB(0, 0, 0)
 flight.TextSize = 14.000
 
 walkspeedText.Name = "walkspeedText"
-walkspeedText.Parent = window_4
+walkspeedText.Parent = window_3
 walkspeedText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 walkspeedText.BackgroundTransparency = 1.000
 walkspeedText.BorderColor3 = Color3.fromRGB(0, 0, 0)
@@ -1203,7 +998,7 @@ walkspeedText.TextColor3 = Color3.fromRGB(0, 0, 0)
 walkspeedText.TextSize = 14.000
 
 flyValue.Name = "flyValue"
-flyValue.Parent = window_4
+flyValue.Parent = window_3
 flyValue.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 flyValue.BorderColor3 = Color3.fromRGB(0, 0, 0)
 flyValue.Position = UDim2.new(0.270000011, 0, 0.0579999983, 0)
@@ -1215,7 +1010,7 @@ flyValue.TextColor3 = Color3.fromRGB(0, 0, 0)
 flyValue.TextSize = 14.000
 
 flyButton.Name = "flyButton"
-flyButton.Parent = window_4
+flyButton.Parent = window_3
 flyButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 flyButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
 flyButton.Position = UDim2.new(0.270000011, 0, 0.111000001, 0)
@@ -1226,7 +1021,7 @@ flyButton.TextColor3 = Color3.fromRGB(0, 0, 0)
 flyButton.TextSize = 14.000
 
 spinValue.Name = "spinValue"
-spinValue.Parent = window_4
+spinValue.Parent = window_3
 spinValue.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 spinValue.BorderColor3 = Color3.fromRGB(0, 0, 0)
 spinValue.Position = UDim2.new(0.512686908, 0, 0.05559038, 0)
@@ -1238,7 +1033,7 @@ spinValue.TextColor3 = Color3.fromRGB(0, 0, 0)
 spinValue.TextSize = 14.000
 
 spinButton.Name = "spinButton"
-spinButton.Parent = window_4
+spinButton.Parent = window_3
 spinButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 spinButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
 spinButton.Position = UDim2.new(0.513000011, 0, 0.111000001, 0)
@@ -1249,7 +1044,7 @@ spinButton.TextColor3 = Color3.fromRGB(0, 0, 0)
 spinButton.TextSize = 14.000
 
 flight_2.Name = "flight"
-flight_2.Parent = window_4
+flight_2.Parent = window_3
 flight_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 flight_2.BackgroundTransparency = 1.000
 flight_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
@@ -1262,7 +1057,7 @@ flight_2.TextColor3 = Color3.fromRGB(0, 0, 0)
 flight_2.TextSize = 14.000
 
 fullbright.Name = "fullbright"
-fullbright.Parent = window_4
+fullbright.Parent = window_3
 fullbright.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 fullbright.BorderColor3 = Color3.fromRGB(0, 0, 0)
 fullbright.Position = UDim2.new(0.0270855911, 0, 0.308433741, 0)
@@ -1272,42 +1067,42 @@ fullbright.Text = "Enable Fullbright (off)"
 fullbright.TextColor3 = Color3.fromRGB(0, 0, 0)
 fullbright.TextSize = 14.000
 
-TextLabel_10.Parent = settings_3
-TextLabel_10.BackgroundColor3 = Color3.fromRGB(241, 241, 241)
-TextLabel_10.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_10.BorderSizePixel = 0
-TextLabel_10.Position = UDim2.new(0.138678223, 0, 0.0695187151, 0)
-TextLabel_10.Size = UDim2.new(0, 254, 0, 50)
-TextLabel_10.Font = Enum.Font.SourceSans
-TextLabel_10.Text = "Username"
-TextLabel_10.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_10.TextScaled = true
-TextLabel_10.TextSize = 14.000
-TextLabel_10.TextWrapped = true
-TextLabel_10.TextXAlignment = Enum.TextXAlignment.Left
+TextLabel_8.Parent = settings_3
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(241, 241, 241)
+TextLabel_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_8.BorderSizePixel = 0
+TextLabel_8.Position = UDim2.new(0.138678223, 0, 0.0695187151, 0)
+TextLabel_8.Size = UDim2.new(0, 254, 0, 50)
+TextLabel_8.Font = Enum.Font.SourceSans
+TextLabel_8.Text = "Username"
+TextLabel_8.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_8.TextScaled = true
+TextLabel_8.TextSize = 14.000
+TextLabel_8.TextWrapped = true
+TextLabel_8.TextXAlignment = Enum.TextXAlignment.Left
 
-TextLabel_11.Parent = settings_3
-TextLabel_11.BackgroundColor3 = Color3.fromRGB(241, 241, 241)
-TextLabel_11.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_11.BorderSizePixel = 0
-TextLabel_11.Position = UDim2.new(0.138678223, 0, 0.158645272, 0)
-TextLabel_11.Size = UDim2.new(0, 131, 0, 22)
-TextLabel_11.Font = Enum.Font.SourceSans
-TextLabel_11.Text = "Roblox Account"
-TextLabel_11.TextColor3 = Color3.fromRGB(0, 120, 215)
-TextLabel_11.TextScaled = true
-TextLabel_11.TextSize = 14.000
-TextLabel_11.TextWrapped = true
-TextLabel_11.TextXAlignment = Enum.TextXAlignment.Left
+TextLabel_9.Parent = settings_3
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(241, 241, 241)
+TextLabel_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_9.BorderSizePixel = 0
+TextLabel_9.Position = UDim2.new(0.138678223, 0, 0.158645272, 0)
+TextLabel_9.Size = UDim2.new(0, 131, 0, 22)
+TextLabel_9.Font = Enum.Font.SourceSans
+TextLabel_9.Text = "Roblox Account"
+TextLabel_9.TextColor3 = Color3.fromRGB(0, 120, 215)
+TextLabel_9.TextScaled = true
+TextLabel_9.TextSize = 14.000
+TextLabel_9.TextWrapped = true
+TextLabel_9.TextXAlignment = Enum.TextXAlignment.Left
 
-icon_6.Name = "icon"
-icon_6.Parent = settings_3
-icon_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-icon_6.BorderColor3 = Color3.fromRGB(255, 255, 255)
-icon_6.Position = UDim2.new(0.193877548, 0, 0.0130718956, 0)
-icon_6.Size = UDim2.new(0, 17, 0, 20)
-icon_6.Visible = false
-icon_6.Image = "http://www.roblox.com/asset/?id=18285112483"
+icon_5.Name = "icon"
+icon_5.Parent = settings_3
+icon_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+icon_5.BorderColor3 = Color3.fromRGB(255, 255, 255)
+icon_5.Position = UDim2.new(0.193877548, 0, 0.0130718956, 0)
+icon_5.Size = UDim2.new(0, 17, 0, 20)
+icon_5.Visible = false
+icon_5.Image = "http://www.roblox.com/asset/?id=18285112483"
 
 notepad_6.Name = "notepad"
 notepad_6.Parent = settings_3
@@ -1317,50 +1112,50 @@ notepad_6.Position = UDim2.new(0.00560921663, 0, 0.00733577833, 0)
 notepad_6.Size = UDim2.new(0, 20, 0, 20)
 notepad_6.Image = "http://www.roblox.com/asset/?id=18285112483"
 
-mm2_4.Name = "mm2"
-mm2_4.Parent = win10mode
-mm2_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-mm2_4.BorderColor3 = Color3.fromRGB(74, 74, 74)
-mm2_4.Position = UDim2.new(0.232009754, 0, 0.105992816, 0)
-mm2_4.Size = UDim2.new(0, 550, 0, 523)
-mm2_4.Visible = false
+mm2_3.Name = "mm2"
+mm2_3.Parent = win10mode
+mm2_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+mm2_3.BorderColor3 = Color3.fromRGB(74, 74, 74)
+mm2_3.Position = UDim2.new(0.232009754, 0, 0.105992816, 0)
+mm2_3.Size = UDim2.new(0, 550, 0, 523)
+mm2_3.Visible = false
 
-close_7.Name = "close"
-close_7.Parent = mm2_4
-close_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-close_7.BorderColor3 = Color3.fromRGB(255, 255, 255)
-close_7.Position = UDim2.new(0.940816343, 0, 0.00733577227, 0)
-close_7.Size = UDim2.new(0, 29, 0, 24)
-close_7.Font = Enum.Font.SourceSans
-close_7.Text = "X"
-close_7.TextColor3 = Color3.fromRGB(0, 0, 0)
-close_7.TextSize = 14.000
+close_6.Name = "close"
+close_6.Parent = mm2_3
+close_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+close_6.BorderColor3 = Color3.fromRGB(255, 255, 255)
+close_6.Position = UDim2.new(0.940816343, 0, 0.00733577227, 0)
+close_6.Size = UDim2.new(0, 29, 0, 24)
+close_6.Font = Enum.Font.SourceSans
+close_6.Text = "X"
+close_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+close_6.TextSize = 14.000
 
-minimize_7.Name = "minimize"
-minimize_7.Parent = mm2_4
-minimize_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-minimize_7.BorderColor3 = Color3.fromRGB(255, 255, 255)
-minimize_7.Position = UDim2.new(0.881632745, 0, 0.00733577227, 0)
-minimize_7.Size = UDim2.new(0, 29, 0, 24)
-minimize_7.Font = Enum.Font.SourceSans
-minimize_7.Text = "-"
-minimize_7.TextColor3 = Color3.fromRGB(0, 0, 0)
-minimize_7.TextSize = 29.000
+minimize_6.Name = "minimize"
+minimize_6.Parent = mm2_3
+minimize_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+minimize_6.BorderColor3 = Color3.fromRGB(255, 255, 255)
+minimize_6.Position = UDim2.new(0.881632745, 0, 0.00733577227, 0)
+minimize_6.Size = UDim2.new(0, 29, 0, 24)
+minimize_6.Font = Enum.Font.SourceSans
+minimize_6.Text = "-"
+minimize_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+minimize_6.TextSize = 29.000
 
-TextLabel_12.Parent = mm2_4
-TextLabel_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_12.BackgroundTransparency = 1.000
-TextLabel_12.BorderColor3 = Color3.fromRGB(27, 42, 53)
-TextLabel_12.Position = UDim2.new(0.0602526851, 0, 0, 0)
-TextLabel_12.Size = UDim2.new(0, 150, 0, 29)
-TextLabel_12.Font = Enum.Font.SourceSans
-TextLabel_12.Text = "MM2"
-TextLabel_12.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_12.TextSize = 14.000
-TextLabel_12.TextXAlignment = Enum.TextXAlignment.Left
+TextLabel_10.Parent = mm2_3
+TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.BackgroundTransparency = 1.000
+TextLabel_10.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_10.Position = UDim2.new(0.0602526851, 0, 0, 0)
+TextLabel_10.Size = UDim2.new(0, 150, 0, 29)
+TextLabel_10.Font = Enum.Font.SourceSans
+TextLabel_10.Text = "MM2"
+TextLabel_10.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_10.TextSize = 14.000
+TextLabel_10.TextXAlignment = Enum.TextXAlignment.Left
 
 notepad_7.Name = "notepad"
-notepad_7.Parent = mm2_4
+notepad_7.Parent = mm2_3
 notepad_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 notepad_7.BorderColor3 = Color3.fromRGB(255, 255, 255)
 notepad_7.Position = UDim2.new(0.00560920406, 0, 0.00733577227, 0)
@@ -1368,14 +1163,14 @@ notepad_7.Size = UDim2.new(0, 19, 0, 20)
 notepad_7.Image = "http://www.roblox.com/asset/?id=18241466938"
 
 line_3.Name = "line"
-line_3.Parent = mm2_4
+line_3.Parent = mm2_3
 line_3.BackgroundColor3 = Color3.fromRGB(241, 241, 241)
 line_3.BorderColor3 = Color3.fromRGB(241, 241, 241)
 line_3.Position = UDim2.new(0.00560890883, 0, 0.0975143388, 0)
 line_3.Size = UDim2.new(0, 543, 0, 2)
 
 File_3.Name = "File"
-File_3.Parent = mm2_4
+File_3.Parent = mm2_3
 File_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 File_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
 File_3.BorderSizePixel = 0
@@ -1387,7 +1182,7 @@ File_3.TextColor3 = Color3.fromRGB(0, 0, 0)
 File_3.TextSize = 14.000
 
 Edit_3.Name = "Edit"
-Edit_3.Parent = mm2_4
+Edit_3.Parent = mm2_3
 Edit_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Edit_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Edit_3.BorderSizePixel = 0
@@ -1399,7 +1194,7 @@ Edit_3.TextColor3 = Color3.fromRGB(0, 0, 0)
 Edit_3.TextSize = 14.000
 
 Format_3.Name = "Format"
-Format_3.Parent = mm2_4
+Format_3.Parent = mm2_3
 Format_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Format_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Format_3.BorderSizePixel = 0
@@ -1411,7 +1206,7 @@ Format_3.TextColor3 = Color3.fromRGB(0, 0, 0)
 Format_3.TextSize = 14.000
 
 View_3.Name = "View"
-View_3.Parent = mm2_4
+View_3.Parent = mm2_3
 View_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 View_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
 View_3.BorderSizePixel = 0
@@ -1423,7 +1218,7 @@ View_3.TextColor3 = Color3.fromRGB(0, 0, 0)
 View_3.TextSize = 14.000
 
 Help_3.Name = "Help"
-Help_3.Parent = mm2_4
+Help_3.Parent = mm2_3
 Help_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Help_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Help_3.BorderSizePixel = 0
@@ -1435,7 +1230,7 @@ Help_3.TextColor3 = Color3.fromRGB(0, 0, 0)
 Help_3.TextSize = 14.000
 
 ESP_2.Name = "ESP"
-ESP_2.Parent = mm2_4
+ESP_2.Parent = mm2_3
 ESP_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ESP_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
 ESP_2.Position = UDim2.new(0.0383886732, 0, 0.130019113, 0)
@@ -1447,7 +1242,7 @@ ESP_2.TextColor3 = Color3.fromRGB(0, 0, 0)
 ESP_2.TextSize = 14.000
 
 Pattern.Name = "Pattern"
-Pattern.Parent = mm2_4
+Pattern.Parent = mm2_3
 Pattern.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
 Pattern.BackgroundTransparency = 1.000
 Pattern.BorderColor3 = Color3.fromRGB(27, 42, 53)
@@ -1461,18 +1256,18 @@ Pattern.ScaleType = Enum.ScaleType.Tile
 Pattern.SliceCenter = Rect.new(0, 256, 0, 256)
 Pattern.TileSize = UDim2.new(0, 75, 0, 75)
 
-icon_7.Name = "icon"
-icon_7.Parent = mm2_4
-icon_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-icon_7.BorderColor3 = Color3.fromRGB(255, 255, 255)
-icon_7.Position = UDim2.new(0.193877548, 0, 0.0130718956, 0)
-icon_7.Size = UDim2.new(0, 17, 0, 20)
-icon_7.Visible = false
-icon_7.Image = "http://www.roblox.com/asset/?id=18241466938"
+icon_6.Name = "icon"
+icon_6.Parent = mm2_3
+icon_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+icon_6.BorderColor3 = Color3.fromRGB(255, 255, 255)
+icon_6.Position = UDim2.new(0.193877548, 0, 0.0130718956, 0)
+icon_6.Size = UDim2.new(0, 17, 0, 20)
+icon_6.Visible = false
+icon_6.Image = "http://www.roblox.com/asset/?id=18241466938"
 
 -- Scripts:
 
-local function MXLQEJ_fake_script() -- windowsHomeButton.LocalScript 
+local function MNWLTQT_fake_script() -- windowsHomeButton.LocalScript 
 	local script = Instance.new('LocalScript', windowsHomeButton)
 
 	function Click(mouse)
@@ -1489,8 +1284,8 @@ local function MXLQEJ_fake_script() -- windowsHomeButton.LocalScript
 	
 	
 end
-coroutine.wrap(MXLQEJ_fake_script)()
-local function WDGRIJ_fake_script() -- baconStore.LocalScript 
+coroutine.wrap(MNWLTQT_fake_script)()
+local function TGDEJYO_fake_script() -- baconStore.LocalScript 
 	local script = Instance.new('LocalScript', baconStore)
 
 	function Click(mouse)
@@ -1510,8 +1305,8 @@ local function WDGRIJ_fake_script() -- baconStore.LocalScript
 	
 	
 end
-coroutine.wrap(WDGRIJ_fake_script)()
-local function RUPPL_fake_script() -- music.LocalScript 
+coroutine.wrap(TGDEJYO_fake_script)()
+local function HFJEDPL_fake_script() -- music.LocalScript 
 	local script = Instance.new('LocalScript', music)
 
 	function Click(mouse)
@@ -1532,8 +1327,8 @@ local function RUPPL_fake_script() -- music.LocalScript
 	
 	
 end
-coroutine.wrap(RUPPL_fake_script)()
-local function SSTYTWT_fake_script() -- notepad.LocalScript 
+coroutine.wrap(HFJEDPL_fake_script)()
+local function AWTU_fake_script() -- notepad.LocalScript 
 	local script = Instance.new('LocalScript', notepad)
 
 	function Click(mouse)
@@ -1554,8 +1349,8 @@ local function SSTYTWT_fake_script() -- notepad.LocalScript
 	
 	
 end
-coroutine.wrap(SSTYTWT_fake_script)()
-local function ZBJTUPM_fake_script() -- luaChromium.LocalScript 
+coroutine.wrap(AWTU_fake_script)()
+local function JHVSPO_fake_script() -- luaChromium.LocalScript 
 	local script = Instance.new('LocalScript', luaChromium)
 
 	function Click(mouse)
@@ -1576,8 +1371,8 @@ local function ZBJTUPM_fake_script() -- luaChromium.LocalScript
 	
 	
 end
-coroutine.wrap(ZBJTUPM_fake_script)()
-local function JDXYBH_fake_script() -- mm2.LocalScript 
+coroutine.wrap(JHVSPO_fake_script)()
+local function IWXKZY_fake_script() -- mm2.LocalScript 
 	local script = Instance.new('LocalScript', mm2)
 
 	function Click(mouse)
@@ -1598,8 +1393,8 @@ local function JDXYBH_fake_script() -- mm2.LocalScript
 	
 	
 end
-coroutine.wrap(JDXYBH_fake_script)()
-local function PUVZEJ_fake_script() -- prisonlife.LocalScript 
+coroutine.wrap(IWXKZY_fake_script)()
+local function ZYKFTJT_fake_script() -- prisonlife.LocalScript 
 	local script = Instance.new('LocalScript', prisonlife)
 
 	function Click(mouse)
@@ -1620,8 +1415,8 @@ local function PUVZEJ_fake_script() -- prisonlife.LocalScript
 	
 	
 end
-coroutine.wrap(PUVZEJ_fake_script)()
-local function MVID_fake_script() -- jailbreak.LocalScript 
+coroutine.wrap(ZYKFTJT_fake_script)()
+local function RZHGQEK_fake_script() -- jailbreak.LocalScript 
 	local script = Instance.new('LocalScript', jailbreak)
 
 	function Click(mouse)
@@ -1642,8 +1437,8 @@ local function MVID_fake_script() -- jailbreak.LocalScript
 	
 	
 end
-coroutine.wrap(MVID_fake_script)()
-local function OFPSIYU_fake_script() -- Esp.LocalScript 
+coroutine.wrap(RZHGQEK_fake_script)()
+local function RNYGUQK_fake_script() -- Esp.LocalScript 
 	local script = Instance.new('LocalScript', Esp)
 
 	function Click(mouse)
@@ -1664,8 +1459,8 @@ local function OFPSIYU_fake_script() -- Esp.LocalScript
 	
 	
 end
-coroutine.wrap(OFPSIYU_fake_script)()
-local function HORN_fake_script() -- settings.LocalScript 
+coroutine.wrap(RNYGUQK_fake_script)()
+local function IXVMW_fake_script() -- settings.LocalScript 
 	local script = Instance.new('LocalScript', settings)
 
 	function Click(mouse)
@@ -1686,8 +1481,8 @@ local function HORN_fake_script() -- settings.LocalScript
 	
 	
 end
-coroutine.wrap(HORN_fake_script)()
-local function ATHJG_fake_script() -- win10taskbar.LocalScript 
+coroutine.wrap(IXVMW_fake_script)()
+local function KPCN_fake_script() -- win10taskbar.LocalScript 
 	local script = Instance.new('LocalScript', win10taskbar)
 
 	wait(1)
@@ -1697,8 +1492,8 @@ local function ATHJG_fake_script() -- win10taskbar.LocalScript
 		layer.Name = "windows"
 	end
 end
-coroutine.wrap(ATHJG_fake_script)()
-local function FNDBFO_fake_script() -- baconStore_2.LocalScript 
+coroutine.wrap(KPCN_fake_script)()
+local function OBJWFAG_fake_script() -- baconStore_2.LocalScript 
 	local script = Instance.new('LocalScript', baconStore_2)
 
 	function Click(mouse)
@@ -1711,8 +1506,8 @@ local function FNDBFO_fake_script() -- baconStore_2.LocalScript
 	
 	
 end
-coroutine.wrap(FNDBFO_fake_script)()
-local function DSWQ_fake_script() -- jailbreak_2.LocalScript 
+coroutine.wrap(OBJWFAG_fake_script)()
+local function UTKCOL_fake_script() -- jailbreak_2.LocalScript 
 	local script = Instance.new('LocalScript', jailbreak_2)
 
 	function Click(mouse)
@@ -1725,8 +1520,8 @@ local function DSWQ_fake_script() -- jailbreak_2.LocalScript
 	
 	
 end
-coroutine.wrap(DSWQ_fake_script)()
-local function JTLBM_fake_script() -- luaChromium_2.LocalScript 
+coroutine.wrap(UTKCOL_fake_script)()
+local function WEFNDBR_fake_script() -- luaChromium_2.LocalScript 
 	local script = Instance.new('LocalScript', luaChromium_2)
 
 	function Click(mouse)
@@ -1739,8 +1534,8 @@ local function JTLBM_fake_script() -- luaChromium_2.LocalScript
 	
 	
 end
-coroutine.wrap(JTLBM_fake_script)()
-local function QHNS_fake_script() -- mm2_2.LocalScript 
+coroutine.wrap(WEFNDBR_fake_script)()
+local function TFRZ_fake_script() -- mm2_2.LocalScript 
 	local script = Instance.new('LocalScript', mm2_2)
 
 	function Click(mouse)
@@ -1753,8 +1548,8 @@ local function QHNS_fake_script() -- mm2_2.LocalScript
 	
 	
 end
-coroutine.wrap(QHNS_fake_script)()
-local function EBMMJID_fake_script() -- music_2.LocalScript 
+coroutine.wrap(TFRZ_fake_script)()
+local function ZQHU_fake_script() -- music_2.LocalScript 
 	local script = Instance.new('LocalScript', music_2)
 
 	function Click(mouse)
@@ -1767,8 +1562,8 @@ local function EBMMJID_fake_script() -- music_2.LocalScript
 	
 	
 end
-coroutine.wrap(EBMMJID_fake_script)()
-local function OMJTY_fake_script() -- notepad_2.LocalScript 
+coroutine.wrap(ZQHU_fake_script)()
+local function EJYO_fake_script() -- notepad_2.LocalScript 
 	local script = Instance.new('LocalScript', notepad_2)
 
 	function Click(mouse)
@@ -1781,8 +1576,8 @@ local function OMJTY_fake_script() -- notepad_2.LocalScript
 	
 	
 end
-coroutine.wrap(OMJTY_fake_script)()
-local function PWHD_fake_script() -- prisonlife_2.LocalScript 
+coroutine.wrap(EJYO_fake_script)()
+local function LGFRDIH_fake_script() -- prisonlife_2.LocalScript 
 	local script = Instance.new('LocalScript', prisonlife_2)
 
 	function Click(mouse)
@@ -1795,8 +1590,8 @@ local function PWHD_fake_script() -- prisonlife_2.LocalScript
 	
 	
 end
-coroutine.wrap(PWHD_fake_script)()
-local function BCCRK_fake_script() -- Esp_2.LocalScript 
+coroutine.wrap(LGFRDIH_fake_script)()
+local function VWQTL_fake_script() -- Esp_2.LocalScript 
 	local script = Instance.new('LocalScript', Esp_2)
 
 	function Click(mouse)
@@ -1809,8 +1604,8 @@ local function BCCRK_fake_script() -- Esp_2.LocalScript
 	
 	
 end
-coroutine.wrap(BCCRK_fake_script)()
-local function RUHSEO_fake_script() -- settings_2.LocalScript 
+coroutine.wrap(VWQTL_fake_script)()
+local function YUXZBUI_fake_script() -- settings_2.LocalScript 
 	local script = Instance.new('LocalScript', settings_2)
 
 	function Click(mouse)
@@ -1823,8 +1618,8 @@ local function RUHSEO_fake_script() -- settings_2.LocalScript
 	
 	
 end
-coroutine.wrap(RUHSEO_fake_script)()
-local function PSJNRDZ_fake_script() -- win10taskbar.LocalScript 
+coroutine.wrap(YUXZBUI_fake_script)()
+local function TMQRXOX_fake_script() -- win10taskbar.LocalScript 
 	local script = Instance.new('LocalScript', win10taskbar)
 
 	
@@ -1914,8 +1709,8 @@ local function PSJNRDZ_fake_script() -- win10taskbar.LocalScript
 	makeDraggable(frameToDrag)
 	
 end
-coroutine.wrap(PSJNRDZ_fake_script)()
-local function RHJCOU_fake_script() -- win10.LocalScript 
+coroutine.wrap(TMQRXOX_fake_script)()
+local function NXPUHUD_fake_script() -- win10.LocalScript 
 	local script = Instance.new('LocalScript', win10)
 
 	wait(1)
@@ -1925,8 +1720,8 @@ local function RHJCOU_fake_script() -- win10.LocalScript
 	layer.Name = "layer"
 	end
 end
-coroutine.wrap(RHJCOU_fake_script)()
-local function FWIWRF_fake_script() -- Esp_3.LocalScript 
+coroutine.wrap(NXPUHUD_fake_script)()
+local function NMBXM_fake_script() -- Esp_3.LocalScript 
 	local script = Instance.new('LocalScript', Esp_3)
 
 	
@@ -2016,8 +1811,8 @@ local function FWIWRF_fake_script() -- Esp_3.LocalScript
 	makeDraggable(frameToDrag)
 	
 end
-coroutine.wrap(FWIWRF_fake_script)()
-local function LFQAR_fake_script() -- close.LocalScript 
+coroutine.wrap(NMBXM_fake_script)()
+local function GWMCZ_fake_script() -- close.LocalScript 
 	local script = Instance.new('LocalScript', close)
 
 	function Click(mouse)
@@ -2035,8 +1830,8 @@ local function LFQAR_fake_script() -- close.LocalScript
 	
 	
 end
-coroutine.wrap(LFQAR_fake_script)()
-local function TOOCUSL_fake_script() -- minimize.script 
+coroutine.wrap(GWMCZ_fake_script)()
+local function ZQAQY_fake_script() -- minimize.script 
 	local script = Instance.new('LocalScript', minimize)
 
 	function Click(mouse)
@@ -2063,8 +1858,8 @@ local function TOOCUSL_fake_script() -- minimize.script
 	
 	
 end
-coroutine.wrap(TOOCUSL_fake_script)()
-local function VOENIC_fake_script() -- ESP.LocalScript 
+coroutine.wrap(ZQAQY_fake_script)()
+local function GGHRUHQ_fake_script() -- ESP.LocalScript 
 	local script = Instance.new('LocalScript', ESP)
 
 	local enabled = false
@@ -2141,8 +1936,8 @@ local function VOENIC_fake_script() -- ESP.LocalScript
 	end
 	
 end
-coroutine.wrap(VOENIC_fake_script)()
-local function BGYW_fake_script() -- win10mode.loadOthers 
+coroutine.wrap(GGHRUHQ_fake_script)()
+local function LZFNA_fake_script() -- win10mode.loadOthers 
 	local script = Instance.new('LocalScript', win10mode)
 
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Klipsgoboom/baconGrillNew/main/PL.lua"))()
@@ -2151,840 +1946,9 @@ local function BGYW_fake_script() -- win10mode.loadOthers
 	game.Players.LocalPlayer.PlayerGui.prisonLife.prisonlife.Parent = game.Players.LocalPlayer.PlayerGui:WaitForChild('win10mode')
 	game.Players.LocalPlayer.PlayerGui.luaChromiumGUI.luaChromium.Parent = game.Players.LocalPlayer.PlayerGui:WaitForChild('win10mode')
 end
-coroutine.wrap(BGYW_fake_script)()
-local function BHHYG_fake_script() -- baconStore_3.LocalScript 
-	local script = Instance.new('LocalScript', baconStore_3)
-
-	
-	
-	local dragger = {}; 
-	local resizer = {};
-	
-	do
-		local mouse = game:GetService("Players").LocalPlayer:GetMouse();
-		local inputService = game:GetService('UserInputService');
-		local heartbeat = game:GetService("RunService").Heartbeat;
-		function dragger.new(frame)
-			local s, event = pcall(function()
-				return frame.MouseEnter
-			end)
-	
-			if s then
-				frame.Active = true;
-	
-				event:connect(function()
-					local input = frame.InputBegan:connect(function(key)
-						if key.UserInputType == Enum.UserInputType.MouseButton1 then
-							local objectPosition = Vector2.new(mouse.X - frame.AbsolutePosition.X, mouse.Y - frame.AbsolutePosition.Y);
-							while heartbeat:wait() and inputService:IsMouseButtonPressed(Enum.UserInputType.MouseButton1) do
-								frame:TweenPosition(UDim2.new(0, mouse.X - objectPosition.X + (frame.Size.X.Offset * frame.AnchorPoint.X), 0, mouse.Y - objectPosition.Y + (frame.Size.Y.Offset * frame.AnchorPoint.Y)), 'Out', 'Quad', 0.1, true);
-							end
-						end
-					end)
-	
-					local leave;
-					leave = frame.MouseLeave:connect(function()
-						input:disconnect();
-						leave:disconnect();
-					end)
-				end)
-			end
-		end
-	
-		function resizer.new(p, s)
-			p:GetPropertyChangedSignal('AbsoluteSize'):connect(function()
-				s.Size = UDim2.new(s.Size.X.Scale, s.Size.X.Offset, s.Size.Y.Scale, p.AbsoluteSize.Y);
-			end)
-		end
-	end
-	script.Parent.Active = true
-	script.Parent.Draggable = true
-end
-coroutine.wrap(BHHYG_fake_script)()
-local function OIES_fake_script() -- close_2.LocalScript 
-	local script = Instance.new('LocalScript', close_2)
-
-	function Click(mouse)
-	
-	script.Parent.Parent.Visible = false
-	end
-	script.Parent.MouseButton1Down:connect(Click)
-	
-	
-	
-	
-	
-	
-	
-	
-	
-end
-coroutine.wrap(OIES_fake_script)()
-local function RAYHF_fake_script() -- minimize_2.script 
-	local script = Instance.new('LocalScript', minimize_2)
-
-	function Click(mouse)
-	
-		script.Parent.Parent.Visible = false
-		if script.Parent.Parent.Parent.win10taskbar:WaitForChild(script.Parent.Parent.Name).Position.Y.Scale >= 0.077 then
-			script.Parent.Parent.Parent.win10taskbar.windows.Value += 1
-	
-			local icon = script.Parent.Parent.Parent.win10taskbar:WaitForChild(script.Parent.Parent.Name)
-			icon.Visible = true
-			icon.Interactable = true
-			icon.Position = UDim2.new(0.083*script.Parent.Parent.Parent.win10taskbar.windows.Value, 0, 0.073, 0)
-			icon.Image = script.Parent.Parent.icon.Image
-		end
-	end
-	script.Parent.MouseButton1Down:connect(Click)
-	
-	
-	
-	
-	
-	
-	
-	
-	
-end
-coroutine.wrap(RAYHF_fake_script)()
-local function IZMZXVF_fake_script() -- prisonlife_3.LocalScript 
-	local script = Instance.new('LocalScript', prisonlife_3)
-
-	
-	function Click(mouse)
-		local con2 = script.Parent.Parent.Parent.Parent.prisonlife
-	
-	
-		con2.Visible = true
-	
-	end
-	script.Parent.MouseButton1Down:connect(Click)
-	
-end
-coroutine.wrap(IZMZXVF_fake_script)()
-local function MGAOJY_fake_script() -- godmode.LocalScript 
-	local script = Instance.new('LocalScript', godmode)
-
-	function Click(mouse)
-		local Target = 'LocalPlayer'
-		local SavedTools = Instance.new('Folder',game:GetService('ReplicatedStorage'))
-		SavedTools.Name = 'SavedToolsForGodModeLel'
-		function PreventDieing(TargetPlayer)
-			while wait() do
-				if game:GetService('Players')[TargetPlayer].Character and game:GetService('Players')[TargetPlayer].Character.Humanoid.Health < 100 then 
-					local lastPos = game:GetService('Players')[TargetPlayer].Character:FindFirstChild('HumanoidRootPart').Position
-					local plr = game:GetService('Players')[TargetPlayer].Name
-					local gayevent = game:GetService('Workspace').Remote.loadchar
-					if game:GetService('ReplicatedStorage'):FindFirstChild('SavedToolsForGodModeLel') then
-						for i,v in pairs(game:GetService('Players')[TargetPlayer].Backpack:GetChildren()) do
-							if v then
-								v.Parent = SavedTools
-							end
-						end
-						for i,v in pairs(game:GetService('Players')[TargetPlayer].Character:GetChildren()) do
-							if v:IsA('Tool') then
-								v.Parent = SavedTools
-							end
-						end
-						gayevent:InvokeServer(plr,game:GetService('Players')[TargetPlayer].TeamColor.Name)
-						game:GetService('Players')[TargetPlayer].Character.HumanoidRootPart.CFrame = CFrame.new(lastPos)
-						for i,v in pairs(SavedTools:GetChildren()) do
-							if v then
-								v.Parent = game:GetService('Players')[TargetPlayer].Backpack
-							end
-						end
-						SavedTools:ClearAllChildren()
-					else
-						local SavedTools = Instance.new('Folder',game:GetService('ReplicatedStorage'))
-						SavedTools.Name = 'SavedToolsForGodModeLel'
-						for i,v in pairs(game:GetService('Players')[TargetPlayer].Backpack:GetChildren()) do
-							if v then
-								v.Parent = SavedTools
-							end
-						end
-						for i,v in pairs(game:GetService('Players')[TargetPlayer].Character:GetChildren()) do
-							if v:IsA('Tool') then
-								v.Parent = SavedTools
-							end
-						end
-						gayevent:InvokeServer(plr,game:GetService('Players')[TargetPlayer].TeamColor.Name)
-						game:GetService('Players')[TargetPlayer].Character.HumanoidRootPart.CFrame = CFrame.new(lastPos)
-						for i,v in pairs(SavedTools:GetChildren()) do
-							if v then
-								v.Parent = game:GetService('Players')[TargetPlayer].Backpack
-							end
-						end
-						SavedTools:ClearAllChildren()
-					end
-				end
-			end
-		end
-	
-		wait()
-	
-		if game:GetService('Players')[Target].Character and game:GetService('Players')[Target].Character:FindFirstChild('Humanoid') then
-			game:GetService('Players')[Target].Character.Humanoid:GetPropertyChangedSignal('Health'):Connect(function()
-				PreventDieing(Target)
-			end)
-		else
-			repeat wait() until game:GetService('Players')[Target].Character and game:GetService('Players')[Target].Character:FindFirstChild('Humanoid')
-			game:GetService('Players')[Target].Character.Humanoid:GetPropertyChangedSignal('Health'):Connect(function()
-				PreventDieing(Target)
-			end)
-		end
-	
-		game:GetService('Players').PlayerAdded:Connect(function()
-			PreventDieing(Target)
-		end)
-	end
-	
-	script.Parent.MouseButton1Down:connect(Click)
-end
-coroutine.wrap(MGAOJY_fake_script)()
-local function DPKSUBF_fake_script() -- buildaboat.LocalScript 
-	local script = Instance.new('LocalScript', buildaboat)
-
-	function Click(mouse)
-	
-		for i,v in pairs(game:GetService("Players").LocalPlayer.Character:GetChildren()) do
-			if v:IsA("Shirt") or v:IsA("Pants") or v:IsA("Hat") then
-				v:Destroy()
-			end
-			if v:IsA("Part") or v:IsA("MeshPart") then
-				v.Transparency = 1
-				if v.Name == "Head" then
-					if v:FindFirstChild("face") then
-						v.face:Destroy()
-					end
-				end
-			end
-		end
-		_G.farm = true
-		local times = 0
-		while _G.farm == true do
-			local T = game.Players.LocalPlayer.Character.HumanoidRootPart
-			local BV = Instance.new('BodyVelocity', T)
-			BV.Velocity = Vector3.new('0,-0.1,0')
-			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-49.705349, 50, -496.427887)
-			print('Initiating ' .. times)
-			while T.CFrame.Z < 9513.75293 do
-				T.CFrame = T.CFrame + Vector3.new(0,0,0.1)
-				T.CFrame = T.CFrame + Vector3.new(0,0,0.1)
-				T.CFrame = T.CFrame + Vector3.new(0,0,0.1)
-				T.CFrame = T.CFrame + Vector3.new(0,0,0.1)
-				T.CFrame = T.CFrame + Vector3.new(0,0,0.1)
-				T.CFrame = T.CFrame + Vector3.new(0,0,0.1)
-				T.CFrame = T.CFrame + Vector3.new(0,0,0.1)
-				T.CFrame = T.CFrame + Vector3.new(0,0,0.1)
-				T.CFrame = T.CFrame + Vector3.new(0,0,0.1)
-				T.CFrame = T.CFrame + Vector3.new(0,0,0.1)
-				T.CFrame = T.CFrame + Vector3.new(0,0,0.1)
-				T.CFrame = T.CFrame + Vector3.new(0,0,0.1)
-				T.CFrame = T.CFrame + Vector3.new(0,0,0.1)
-				T.CFrame = T.CFrame + Vector3.new(0,0,0.1)
-				T.CFrame = T.CFrame + Vector3.new(0,0,0.1)
-				T.CFrame = T.CFrame + Vector3.new(0,0,0.1)
-				T.CFrame = T.CFrame + Vector3.new(0,0,0.1)
-				T.CFrame = T.CFrame + Vector3.new(0,0,0.1)
-				T.CFrame = T.CFrame + Vector3.new(0,0,0.1)
-				T.CFrame = T.CFrame + Vector3.new(0,0,0.1)
-				T.CFrame = T.CFrame + Vector3.new(0,0,0.1)
-				T.CFrame = T.CFrame + Vector3.new(0,0,0.1)
-				T.CFrame = T.CFrame + Vector3.new(0,0,0.1)
-				T.CFrame = T.CFrame + Vector3.new(0,0,0.1)
-				T.CFrame = T.CFrame + Vector3.new(0,0,0.1)
-				T.CFrame = T.CFrame + Vector3.new(0,0,0.1)
-				T.CFrame = T.CFrame + Vector3.new(0,0,0.1)
-				T.CFrame = T.CFrame + Vector3.new(0,0,0.1)
-				T.CFrame = T.CFrame + Vector3.new(0,0,0.1)
-				T.CFrame = T.CFrame + Vector3.new(0,0,0.1)
-				T.CFrame = T.CFrame + Vector3.new(0,0,0.1)
-				T.CFrame = T.CFrame + Vector3.new(0,0,0.1)
-				T.CFrame = T.CFrame + Vector3.new(0,0,0.1)
-				T.CFrame = T.CFrame + Vector3.new(0,0,0.1)
-				T.CFrame = T.CFrame + Vector3.new(0,0,0.1)
-				T.CFrame = T.CFrame + Vector3.new(0,0,0.1)
-				T.CFrame = T.CFrame + Vector3.new(0,0,0.1)
-				T.CFrame = T.CFrame + Vector3.new(0,0,0.1)
-				T.CFrame = T.CFrame + Vector3.new(0,0,0.1)
-				T.CFrame = T.CFrame + Vector3.new(0,0,0.1)
-				T.CFrame = T.CFrame + Vector3.new(0,0,0.1)
-				T.CFrame = T.CFrame + Vector3.new(0,0,0.1)
-				T.CFrame = T.CFrame + Vector3.new(0,0,0.1)
-				T.CFrame = T.CFrame + Vector3.new(0,0,0.1)
-				T.CFrame = T.CFrame + Vector3.new(0,0,0.1)
-				T.CFrame = T.CFrame + Vector3.new(0,0,0.1)
-				T.CFrame = T.CFrame + Vector3.new(0,0,0.1)
-				T.CFrame = T.CFrame + Vector3.new(0,0,0.1)
-				T.CFrame = T.CFrame + Vector3.new(0,0,0.1)
-				T.CFrame = T.CFrame + Vector3.new(0,0,0.1)
-				T.CFrame = T.CFrame + Vector3.new(0,0,0.1)
-				T.CFrame = T.CFrame + Vector3.new(0,0,0.1)
-				T.CFrame = T.CFrame + Vector3.new(0,0,0.1)
-				T.CFrame = T.CFrame + Vector3.new(0,0,0.1)
-				T.CFrame = T.CFrame + Vector3.new(0,0,0.1)
-				T.CFrame = T.CFrame + Vector3.new(0,0,0.1)
-				T.CFrame = T.CFrame + Vector3.new(0,0,0.1)
-				T.CFrame = T.CFrame + Vector3.new(0,0,0.1)
-				T.CFrame = T.CFrame + Vector3.new(0,0,0.1)
-				T.CFrame = T.CFrame + Vector3.new(0,0,0.1)
-				T.CFrame = T.CFrame + Vector3.new(0,0,0.1)
-				T.CFrame = T.CFrame + Vector3.new(0,0,0.1)
-				T.CFrame = T.CFrame + Vector3.new(0,0,0.1)
-				T.CFrame = T.CFrame + Vector3.new(0,0,0.1)
-				wait()
-			end
-			T.BodyVelocity:Destroy()
-			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-61, -351, 9524)
-			wait (0.5)
-			print('completed ' .. times)
-			times = tonumber(times + 1)
-			wait(5)
-			print('wait end')
-		end
-	end
-	
-		script.Parent.MouseButton1Down:connect(Click)
-end
-coroutine.wrap(DPKSUBF_fake_script)()
-local function GJFQE_fake_script() -- disabletaskbar.LocalScript 
-	local script = Instance.new('LocalScript', disabletaskbar)
-
-	
-	function Click(mouse)
-		
-		script.Parent.Parent.Parent.Parent.win10taskbar.Visible = false
-	
-	end
-	script.Parent.MouseButton1Down:connect(Click)
-	
-end
-coroutine.wrap(GJFQE_fake_script)()
-local function ZNFST_fake_script() -- enabletaskbar.LocalScript 
-	local script = Instance.new('LocalScript', enabletaskbar)
-
-	
-	function Click(mouse)
-	
-		script.Parent.Parent.Parent.Parent.win10taskbar.Visible = true
-		script.Parent.Parent.Parent.Parent.win10taskbar.baconclanpopup.Visible = true
-	
-	end
-	script.Parent.MouseButton1Down:connect(Click)
-	
-	
-end
-coroutine.wrap(ZNFST_fake_script)()
-local function VAAY_fake_script() -- jailbreak_3.LocalScript 
+coroutine.wrap(LZFNA_fake_script)()
+local function VYTGO_fake_script() -- jailbreak_3.LocalScript 
 	local script = Instance.new('LocalScript', jailbreak_3)
-
-	function Click(mouse)
-		
-		local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-		local Window = Library.CreateLib("Bacon Jailbreak", "Ocean")
-		--main
-		local Tab = Window:NewTab("Utility")
-		local Section = Tab:NewSection("Jailbreak")
-		local desiredHeight = 5
-		Section:NewSlider("SliderText", "SliderInfo", 1000, 0, function(s)
-			desiredHeight = s
-		end)
-		Section:NewButton("Enable Suspension", "Basically makes car fly", function()
-			local suspension = {}
-	
-			for i,v in next, getgc(true) do
-				if type(v)== "table" then
-					if rawget(v, "Event") and rawget(v, "GetVehiclePacket") then
-						suspension.GetVehiclePacket = v.GetVehiclePacket
-	
-					end
-				end
-			end
-			game:GetService("RunService").RenderStepped:Connect(function()
-	
-				suspension.GetVehiclePacket().Height = desiredHeight
-				suspension.GetVehiclePacket().GarageEngineSpeed = 100
-				suspension.GetVehiclePacket().TurnSpeed = 5
-			end)
-		end)
-		Section:NewButton("Btools", "Gives you btools", function()
-	
-	
-			local ScreenGui = Instance.new("ScreenGui")
-			local main = Instance.new("Frame")
-			local Text = Instance.new("TextLabel")
-			local BT = Instance.new("TextButton")
-	
-			ScreenGui.Parent = game.CoreGui
-	
-			main.Name = "main"
-			main.Parent = ScreenGui
-			main.BackgroundColor3 = Color3.fromRGB(62, 62, 62)
-			main.BorderColor3 = Color3.fromRGB(0, 0, 0)
-			main.BorderSizePixel = 5
-			main.Position = UDim2.new(0.0198598132, 0, 0.687250972, 0)
-			main.Size = UDim2.new(0, 207, 0, 146)
-			main.Active = true
-	
-			Text.Name = "Text"
-			Text.Parent = ScreenGui
-			Text.BackgroundColor3 = Color3.fromRGB(157, 157, 157)
-			Text.Position = UDim2.new(0.0292056073, 0, 0.699203134, 0)
-			Text.Size = UDim2.new(0, 190, 0, 34)
-			Text.Font = Enum.Font.SciFi
-			Text.Text = "Btools script"
-			Text.TextColor3 = Color3.fromRGB(0, 0, 0)
-			Text.TextSize = 14.000
-	
-			BT.Name = "BT"
-			BT.Parent = ScreenGui
-			BT.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-			BT.Position = UDim2.new(0.0443925261, 0, 0.860557795, 0)
-			BT.Size = UDim2.new(0, 164, 0, 40)
-			BT.Style = Enum.ButtonStyle.RobloxRoundDefaultButton
-			BT.Font = Enum.Font.Highway
-			BT.Text = "Btools"
-			BT.TextColor3 = Color3.fromRGB(0, 0, 0)
-			BT.TextScaled = true
-			BT.TextSize = 14.000
-			BT.TextWrapped = true
-			BT.MouseButton1Down:connect(function()
-				local tool1 = Instance.new("HopperBin",game.Players.LocalPlayer.Backpack)
-				local tool2 = Instance.new("HopperBin",game.Players.LocalPlayer.Backpack)
-				local tool3 = Instance.new("HopperBin",game.Players.LocalPlayer.Backpack)
-				local tool4 = Instance.new("HopperBin",game.Players.LocalPlayer.Backpack)
-				local tool5 = Instance.new("HopperBin",game.Players.LocalPlayer.Backpack)
-				tool1.BinType = "Clone"
-				tool2.BinType = "GameTool"
-				tool3.BinType = "Hammer"
-				tool4.BinType = "Script"
-				tool5.BinType = "Grab"
-			end)
-		end)
-	
-		
-		
-	
-		
-	
-	
-		
-	
-	
-	end
-	script.Parent.MouseButton1Down:connect(Click)
-end
-coroutine.wrap(VAAY_fake_script)()
-local function WPSXCVD_fake_script() -- mm2_3.LocalScript 
-	local script = Instance.new('LocalScript', mm2_3)
-
-	function Click(mouse)
-		script.Parent.Parent.Parent.Parent.mm2.Visible = true
-	end
-	script.Parent.MouseButton1Down:connect(Click)
-end
-coroutine.wrap(WPSXCVD_fake_script)()
-local function CSLU_fake_script() -- Browser.LocalScript 
-	local script = Instance.new('LocalScript', Browser)
-
-	function Click(mouse)
-	
-		loadstring(game:HttpGet('https://raw.githubusercontent.com/Klipsgoboom/Bacon-Clan-Windows-Script/main/windowsmodule.txt'))()
-	end
-	
-	script.Parent.MouseButton1Down:connect(Click)
-end
-coroutine.wrap(CSLU_fake_script)()
-local function VQDENQC_fake_script() -- aimbot.LocalScript 
-	local script = Instance.new('LocalScript', aimbot)
-
-	
-	function Click(mouse)
-	
-		local plrs = game:GetService("Players")
-		local TeamBased = true ; local teambasedswitch = "o"
-		local presskeytoaim = true; local aimkey = "e"
-		local raycast = false
-	
-		local espupdatetime = 5; autoesp = false
-	
-	
-	
-		local lockaim = true; local lockangle = 5
-	
-	
-	
-	
-	
-		local Gui = Instance.new("ScreenGui")
-		local Move = Instance.new("Frame")
-		local Main = Instance.new("Frame")
-		local EspStatus = Instance.new("TextLabel")
-		local st1 = Instance.new("TextLabel")
-		local st1_2 = Instance.new("TextLabel")
-		local st1_3 = Instance.new("TextLabel")
-		local Name = Instance.new("TextLabel")
-	
-	
-	
-		local plrsforaim = {}
-	
-		local lplr = game:GetService("Players").LocalPlayer
-		Move.Draggable = true
-		Gui.ResetOnSpawn = false
-		Gui.Name = "Chat"
-		Gui.DisplayOrder = 999
-	
-		Gui.Parent = plrs.LocalPlayer.PlayerGui
-	
-	
-		f = {}
-		local espforlder
-	
-		f.addesp = function()
-			--print("ESP ran")
-			if espforlder then
-			else
-				espforlder = Instance.new("Folder")
-				espforlder.Parent = game.Workspace.CurrentCamera
-			end
-			for i, v in pairs(espforlder:GetChildren()) do
-				v:Destroy()
-			end
-			for _, plr in pairs(plrs:GetChildren()) do
-				if plr.Character and plr.Character.Humanoid.Health > 0 and plr.Name ~= lplr.Name then
-					if TeamBased == true then
-						if plr.Team.Name ~= plrs.LocalPlayer.Team.Name  then
-							local e = espforlder:FindFirstChild(plr.Name)
-							if not e then
-								--print("Added esp for team based")
-								local bill = Instance.new("BillboardGui", espforlder)
-								bill.Name = plr.Name
-								bill.AlwaysOnTop = true
-								bill.Size = UDim2.new(1,0,1,0)
-								bill.Adornee = plr.Character.Head
-								local Frame = Instance.new('Frame',bill)
-								Frame.Active = true
-								Frame.BackgroundColor3 = Color3.new(0/255,255/255,0/255)
-								Frame.BackgroundTransparency = 0
-								Frame.BorderSizePixel = 0
-								Frame.AnchorPoint = Vector2.new(.5, .5)
-								Frame.Position = UDim2.new (0.5,0,0.5,0)
-								Frame.Size = UDim2.new (1,0,1,0)
-								Frame.Rotation = 0
-								plr.Character.Humanoid.Died:Connect(function()
-									bill:Destroy()
-								end)
-							end
-						end
-					else
-						local e = espforlder:FindFirstChild(plr.Name)
-						if not e then
-							--print("Added esp")
-							local bill = Instance.new("BillboardGui", espforlder)
-							bill.Name = plr.Name
-							bill.AlwaysOnTop = true
-							bill.Size = UDim2.new(1,0,1,0)
-							bill.Adornee = plr.Character.Head
-							local Frame = Instance.new('Frame',bill)
-							Frame.Active = true
-							Frame.BackgroundColor3 = Color3.new(0/255,255/255,0/255)
-							Frame.BackgroundTransparency = 0
-							Frame.BorderSizePixel = 0
-							Frame.AnchorPoint = Vector2.new(.5, .5)
-							Frame.Position = UDim2.new (0.5,0,0.5,0)
-							Frame.Size = UDim2.new (1,0,1,0)
-							Frame.Rotation = 0
-							plr.Character.Humanoid.Died:Connect(function()
-								bill:Destroy()
-							end)
-						end
-					end
-	
-	
-				end
-			end
-		end
-		local cam = game.Workspace.CurrentCamera
-	
-		local mouse = lplr:GetMouse()
-		local switch = false
-		local key = "k"
-		local aimatpart = nil
-		mouse.KeyDown:Connect(function(a)
-			if a == "t" then
-				print("worked1")
-				f.addesp()
-			elseif a == "u" then
-				if raycast == true then
-					raycast = false
-				else
-					raycast = true
-				end
-			elseif a == "l" then
-				if autoesp == false then
-					autoesp = true
-				else
-					autoesp = false
-				end
-			end
-			if a == "j" then
-				if mouse.Target then
-					mouse.Target:Destroy()
-				end
-			end
-			if a == key then
-				if switch == false then
-					switch = true
-				else
-					switch = false
-					if aimatpart ~= nil then
-						aimatpart = nil
-					end
-				end
-			elseif a == teambasedswitch then
-				if TeamBased == true then
-					TeamBased = false
-					teambasedstatus.Text = tostring(TeamBased)
-				else
-					TeamBased = true
-					teambasedstatus.Text = tostring(TeamBased)
-				end
-			elseif a == aimkey then
-				if not aimatpart then
-					local maxangle = math.rad(20)
-					for i, plr in pairs(plrs:GetChildren()) do
-						if plr.Name ~= lplr.Name and plr.Character and plr.Character.Head and plr.Character.Humanoid and plr.Character.Humanoid.Health > 1 then
-							if TeamBased == true then
-								if plr.Team.Name ~= lplr.Team.Name then
-									local an = checkfov(plr.Character.Head)
-									if an < maxangle then
-										maxangle = an
-										aimatpart = plr.Character.Head
-									end
-								end
-							else
-								local an = checkfov(plr.Character.Head)
-								if an < maxangle then
-									maxangle = an
-									aimatpart = plr.Character.Head
-								end
-								print(plr)
-							end
-							plr.Character.Humanoid.Died:Connect(function()
-								if aimatpart.Parent == plr.Character or aimatpart == nil then
-									aimatpart = nil
-								end
-							end)
-						end
-					end
-				else
-					aimatpart = nil
-				end
-			end
-		end)
-	
-		function getfovxyz (p0, p1, deg)
-			local x1, y1, z1 = p0:ToOrientation()
-			local cf = CFrame.new(p0.p, p1.p)
-			local x2, y2, z2 = cf:ToOrientation()
-			--local d = math.deg
-			if deg then
-				--return Vector3.new(d(x1-x2), d(y1-y2), d(z1-z2))
-			else
-				return Vector3.new((x1-x2), (y1-y2), (z1-z2))
-			end
-		end
-	
-		function getaimbotplrs()
-			plrsforaim = {}
-			for i, plr in pairs(plrs:GetChildren()) do
-				if plr.Character and plr.Character.Humanoid and plr.Character.Humanoid.Health > 0 and plr.Name ~= lplr.Name and plr.Character.Head then
-	
-					if TeamBased == true then
-						if plr.Team.Name ~= lplr.Team.Name then
-							local cf = CFrame.new(game.Workspace.CurrentCamera.CFrame.p, plr.Character.Head.CFrame.p)
-							local r = Ray.new(cf, cf.LookVector * 10000)
-							local ign = {}
-							for i, v in pairs(plrs.LocalPlayer.Character:GetChildren()) do
-								if v:IsA("BasePart") then
-									table.insert(ign , v)
-								end
-							end
-							local obj = game.Workspace:FindPartOnRayWithIgnoreList(r, ign)
-							if obj.Parent == plr.Character and obj.Parent ~= lplr.Character then
-								table.insert(plrsforaim, obj)
-							end
-						end
-					else
-						local cf = CFrame.new(game.Workspace.CurrentCamera.CFrame.p, plr.Character.Head.CFrame.p)
-						local r = Ray.new(cf, cf.LookVector * 10000)
-						local ign = {}
-						for i, v in pairs(plrs.LocalPlayer.Character:GetChildren()) do
-							if v:IsA("BasePart") then
-								table.insert(ign , v)
-							end
-						end
-						local obj = game.Workspace:FindPartOnRayWithIgnoreList(r, ign)
-						if obj.Parent == plr.Character and obj.Parent ~= lplr.Character then
-							table.insert(plrsforaim, obj)
-						end
-					end
-	
-	
-				end
-			end
-		end
-	
-		function aimat(part)
-			cam.CFrame = CFrame.new(cam.CFrame.p, part.CFrame.p)
-		end
-		function checkfov (part)
-			local fov = getfovxyz(game.Workspace.CurrentCamera.CFrame, part.CFrame)
-			local angle = math.abs(fov.X) + math.abs(fov.Y)
-			return angle
-		end
-	
-		game:GetService("RunService").RenderStepped:Connect(function()
-			if aimatpart then
-				aimat(aimatpart)
-				if aimatpart.Parent == plrs.LocalPlayer.Character then
-					aimatpart = nil
-				end
-			end
-	
-	
-	
-	
-			if raycast == true and switch == false and not aimatpart then
-				getaimbotplrs()
-				aimatpart = nil
-				local maxangle = 999
-				for i, v in ipairs(plrsforaim) do
-					if v.Parent ~= lplr.Character then
-						local an = checkfov(v)
-						if an < maxangle and v ~= lplr.Character.Head then
-							maxangle = an
-							aimatpart = v
-							print(v:GetFullName())
-							v.Parent.Humanoid.Died:connect(function()
-								aimatpart = nil
-							end)
-						end
-					end
-				end
-	
-			end
-		end)
-		delay(0, function()
-			while wait(espupdatetime) do
-				if autoesp == true then
-					pcall(function()
-						f.addesp()
-					end)
-				end
-			end
-		end)
-	end
-	script.Parent.MouseButton1Down:connect(Click)
-	
-end
-coroutine.wrap(VQDENQC_fake_script)()
-local function CSUV_fake_script() -- fly.LocalScript 
-	local script = Instance.new('LocalScript', fly)
-
-	
-	function Click(mouse)
-	
-		repeat wait() 
-		until game.Players.LocalPlayer and game.Players.LocalPlayer.Character and game.Players.LocalPlayer.Character:findFirstChild("HumanoidRootPart") and game.Players.LocalPlayer.Character:findFirstChild("Humanoid") 
-		local mouse = game.Players.LocalPlayer:GetMouse() 
-		repeat wait() until mouse
-		local plr = game.Players.LocalPlayer 
-		local torso = plr.Character.HumanoidRootPart 
-		local flying = true
-		local deb = true 
-		local ctrl = {f = 0, b = 0, l = 0, r = 0} 
-		local lastctrl = {f = 0, b = 0, l = 0, r = 0} 
-		local maxspeed = 50 
-		local speed = 0 
-	
-		function Fly() 
-			local bg = Instance.new("BodyGyro", torso) 
-			bg.P = 9e4 
-			bg.maxTorque = Vector3.new(9e9, 9e9, 9e9) 
-			bg.cframe = torso.CFrame 
-			local bv = Instance.new("BodyVelocity", torso) 
-			bv.velocity = Vector3.new(0,0.1,0) 
-			bv.maxForce = Vector3.new(9e9, 9e9, 9e9) 
-			repeat wait() 
-				plr.Character.Humanoid.PlatformStand = true 
-				if ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0 then 
-					speed = speed+.5+(speed/maxspeed) 
-					if speed > maxspeed then 
-						speed = maxspeed 
-					end 
-				elseif not (ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0) and speed ~= 0 then 
-					speed = speed-1 
-					if speed < 0 then 
-						speed = 0 
-					end 
-				end 
-				if (ctrl.l + ctrl.r) ~= 0 or (ctrl.f + ctrl.b) ~= 0 then 
-					bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (ctrl.f+ctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(ctrl.l+ctrl.r,(ctrl.f+ctrl.b)*.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed 
-					lastctrl = {f = ctrl.f, b = ctrl.b, l = ctrl.l, r = ctrl.r} 
-				elseif (ctrl.l + ctrl.r) == 0 and (ctrl.f + ctrl.b) == 0 and speed ~= 0 then 
-					bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (lastctrl.f+lastctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(lastctrl.l+lastctrl.r,(lastctrl.f+lastctrl.b)*.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed 
-				else 
-					bv.velocity = Vector3.new(0,0.1,0) 
-				end 
-				bg.cframe = game.Workspace.CurrentCamera.CoordinateFrame * CFrame.Angles(-math.rad((ctrl.f+ctrl.b)*50*speed/maxspeed),0,0) 
-			until not flying 
-			ctrl = {f = 0, b = 0, l = 0, r = 0} 
-			lastctrl = {f = 0, b = 0, l = 0, r = 0} 
-			speed = 0 
-			bg:Destroy() 
-			bv:Destroy() 
-			plr.Character.Humanoid.PlatformStand = false 
-		end 
-		mouse.KeyDown:connect(function(key) 
-			if key:lower() == "e" then 
-				if flying then flying = false 
-				else 
-					flying = true 
-					Fly() 
-				end 
-			elseif key:lower() == "w" then 
-				ctrl.f = 1 
-			elseif key:lower() == "s" then 
-				ctrl.b = -1 
-			elseif key:lower() == "a" then 
-				ctrl.l = -1 
-			elseif key:lower() == "d" then 
-				ctrl.r = 1 
-			end 
-		end) 
-		mouse.KeyUp:connect(function(key) 
-			if key:lower() == "w" then 
-				ctrl.f = 0 
-			elseif key:lower() == "s" then 
-				ctrl.b = 0 
-			elseif key:lower() == "a" then 
-				ctrl.l = 0 
-			elseif key:lower() == "d" then 
-				ctrl.r = 0 
-			end 
-		end)
-		Fly()
-	end
-	
-	script.Parent.MouseButton1Down:connect(Click)
-	
-end
-coroutine.wrap(CSUV_fake_script)()
-local function YRZLQY_fake_script() -- jailbreak_4.LocalScript 
-	local script = Instance.new('LocalScript', jailbreak_4)
 
 	
 	local UserInputService = game:GetService("UserInputService")
@@ -3073,9 +2037,9 @@ local function YRZLQY_fake_script() -- jailbreak_4.LocalScript
 	makeDraggable(frameToDrag)
 	
 end
-coroutine.wrap(YRZLQY_fake_script)()
-local function VZNZCP_fake_script() -- close_3.LocalScript 
-	local script = Instance.new('LocalScript', close_3)
+coroutine.wrap(VYTGO_fake_script)()
+local function AYRUC_fake_script() -- close_2.LocalScript 
+	local script = Instance.new('LocalScript', close_2)
 
 	function Click(mouse)
 	
@@ -3092,9 +2056,9 @@ local function VZNZCP_fake_script() -- close_3.LocalScript
 	
 	
 end
-coroutine.wrap(VZNZCP_fake_script)()
-local function FFMIJZR_fake_script() -- minimize_3.script 
-	local script = Instance.new('LocalScript', minimize_3)
+coroutine.wrap(AYRUC_fake_script)()
+local function QKMDMPR_fake_script() -- minimize_2.script 
+	local script = Instance.new('LocalScript', minimize_2)
 
 	function Click(mouse)
 	
@@ -3120,8 +2084,8 @@ local function FFMIJZR_fake_script() -- minimize_3.script
 	
 	
 end
-coroutine.wrap(FFMIJZR_fake_script)()
-local function VJTL_fake_script() -- carSuspension.LocalScript 
+coroutine.wrap(QKMDMPR_fake_script)()
+local function KBKANTI_fake_script() -- carSuspension.LocalScript 
 	local script = Instance.new('LocalScript', carSuspension)
 
 	
@@ -3146,8 +2110,8 @@ local function VJTL_fake_script() -- carSuspension.LocalScript
 	script.Parent.MouseButton1Down:connect(Click)
 	
 end
-coroutine.wrap(VJTL_fake_script)()
-local function WQAGZV_fake_script() -- music_3.LocalScript 
+coroutine.wrap(KBKANTI_fake_script)()
+local function OUZEWJC_fake_script() -- music_3.LocalScript 
 	local script = Instance.new('LocalScript', music_3)
 
 	
@@ -3237,9 +2201,9 @@ local function WQAGZV_fake_script() -- music_3.LocalScript
 	makeDraggable(frameToDrag)
 	
 end
-coroutine.wrap(WQAGZV_fake_script)()
-local function VYQDJWO_fake_script() -- close_4.LocalScript 
-	local script = Instance.new('LocalScript', close_4)
+coroutine.wrap(OUZEWJC_fake_script)()
+local function DZUS_fake_script() -- close_3.LocalScript 
+	local script = Instance.new('LocalScript', close_3)
 
 	function Click(mouse)
 	
@@ -3256,9 +2220,9 @@ local function VYQDJWO_fake_script() -- close_4.LocalScript
 	
 	
 end
-coroutine.wrap(VYQDJWO_fake_script)()
-local function KGEUV_fake_script() -- minimize_4.LocalScript 
-	local script = Instance.new('LocalScript', minimize_4)
+coroutine.wrap(DZUS_fake_script)()
+local function RYJKH_fake_script() -- minimize_3.LocalScript 
+	local script = Instance.new('LocalScript', minimize_3)
 
 	function Click(mouse)
 	
@@ -3284,8 +2248,8 @@ local function KGEUV_fake_script() -- minimize_4.LocalScript
 	
 	
 end
-coroutine.wrap(KGEUV_fake_script)()
-local function QHFOYZ_fake_script() -- play.LocalScript 
+coroutine.wrap(RYJKH_fake_script)()
+local function VKQOS_fake_script() -- play.LocalScript 
 	local script = Instance.new('LocalScript', play)
 
 	wait(1)
@@ -3326,8 +2290,8 @@ local function QHFOYZ_fake_script() -- play.LocalScript
 	end)
 	
 end
-coroutine.wrap(QHFOYZ_fake_script)()
-local function XMKJUJC_fake_script() -- notepad_4.LocalScript 
+coroutine.wrap(VKQOS_fake_script)()
+local function VQKNJV_fake_script() -- notepad_4.LocalScript 
 	local script = Instance.new('LocalScript', notepad_4)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -3416,9 +2380,9 @@ local function XMKJUJC_fake_script() -- notepad_4.LocalScript
 	makeDraggable(frameToDrag)
 	
 end
-coroutine.wrap(XMKJUJC_fake_script)()
-local function WMQOGOL_fake_script() -- close_5.LocalScript 
-	local script = Instance.new('LocalScript', close_5)
+coroutine.wrap(VQKNJV_fake_script)()
+local function NHPA_fake_script() -- close_4.LocalScript 
+	local script = Instance.new('LocalScript', close_4)
 
 	function Click(mouse)
 	
@@ -3435,9 +2399,9 @@ local function WMQOGOL_fake_script() -- close_5.LocalScript
 	
 	
 end
-coroutine.wrap(WMQOGOL_fake_script)()
-local function MMRDMK_fake_script() -- minimize_5.script 
-	local script = Instance.new('LocalScript', minimize_5)
+coroutine.wrap(NHPA_fake_script)()
+local function PJNZZMT_fake_script() -- minimize_4.script 
+	local script = Instance.new('LocalScript', minimize_4)
 
 	function Click(mouse)
 	
@@ -3463,8 +2427,8 @@ local function MMRDMK_fake_script() -- minimize_5.script
 	
 	
 end
-coroutine.wrap(MMRDMK_fake_script)()
-local function FJHJRT_fake_script() -- settings_3.LocalScript 
+coroutine.wrap(PJNZZMT_fake_script)()
+local function QAKGK_fake_script() -- settings_3.LocalScript 
 	local script = Instance.new('LocalScript', settings_3)
 
 	
@@ -3554,9 +2518,9 @@ local function FJHJRT_fake_script() -- settings_3.LocalScript
 	makeDraggable(frameToDrag)
 	
 end
-coroutine.wrap(FJHJRT_fake_script)()
-local function GLZJJQ_fake_script() -- close_6.LocalScript 
-	local script = Instance.new('LocalScript', close_6)
+coroutine.wrap(QAKGK_fake_script)()
+local function PHPTUS_fake_script() -- close_5.LocalScript 
+	local script = Instance.new('LocalScript', close_5)
 
 	function Click(mouse)
 	
@@ -3573,9 +2537,9 @@ local function GLZJJQ_fake_script() -- close_6.LocalScript
 	
 	
 end
-coroutine.wrap(GLZJJQ_fake_script)()
-local function YNUV_fake_script() -- minimize_6.LocalScript 
-	local script = Instance.new('LocalScript', minimize_6)
+coroutine.wrap(PHPTUS_fake_script)()
+local function AUJTMA_fake_script() -- minimize_5.LocalScript 
+	local script = Instance.new('LocalScript', minimize_5)
 
 	function Click(mouse)
 	
@@ -3601,8 +2565,8 @@ local function YNUV_fake_script() -- minimize_6.LocalScript
 	
 	
 end
-coroutine.wrap(YNUV_fake_script)()
-local function SKVWOHG_fake_script() -- walkspeedButton.LocalScript 
+coroutine.wrap(AUJTMA_fake_script)()
+local function ENDEKK_fake_script() -- walkspeedButton.LocalScript 
 	local script = Instance.new('LocalScript', walkspeedButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -3610,8 +2574,8 @@ local function SKVWOHG_fake_script() -- walkspeedButton.LocalScript
 		game.Workspace:WaitForChild(game.Players.LocalPlayer.Name).Humanoid.WalkSpeed = script.Parent.Parent.walkspeedValue.Text
 	end)
 end
-coroutine.wrap(SKVWOHG_fake_script)()
-local function XDRF_fake_script() -- flyButton.LocalScript 
+coroutine.wrap(ENDEKK_fake_script)()
+local function GWZMYDR_fake_script() -- flyButton.LocalScript 
 	local script = Instance.new('LocalScript', flyButton)
 
 	repeat wait() 
@@ -3733,8 +2697,8 @@ local function XDRF_fake_script() -- flyButton.LocalScript
 	end)
 	
 end
-coroutine.wrap(XDRF_fake_script)()
-local function AJTMI_fake_script() -- spinButton.LocalScript 
+coroutine.wrap(GWZMYDR_fake_script)()
+local function IDFYY_fake_script() -- spinButton.LocalScript 
 	local script = Instance.new('LocalScript', spinButton)
 
 	local spinning = false
@@ -3776,8 +2740,8 @@ local function AJTMI_fake_script() -- spinButton.LocalScript
 		spin.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
 	end
 end
-coroutine.wrap(AJTMI_fake_script)()
-local function VWRS_fake_script() -- fullbright.LocalScript 
+coroutine.wrap(IDFYY_fake_script)()
+local function DWQSSVR_fake_script() -- fullbright.LocalScript 
 	local script = Instance.new('LocalScript', fullbright)
 
 	local enabled = false
@@ -3798,17 +2762,17 @@ local function VWRS_fake_script() -- fullbright.LocalScript
 		end
 	end)
 end
-coroutine.wrap(VWRS_fake_script)()
-local function OXBEC_fake_script() -- TextLabel_10.LocalScript 
-	local script = Instance.new('LocalScript', TextLabel_10)
+coroutine.wrap(DWQSSVR_fake_script)()
+local function ZXEWYGZ_fake_script() -- TextLabel_8.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel_8)
 
 	local name = game.Players.LocalPlayer.Name
 	
 	script.Parent.Text = name
 end
-coroutine.wrap(OXBEC_fake_script)()
-local function ZHWM_fake_script() -- mm2_4.LocalScript 
-	local script = Instance.new('LocalScript', mm2_4)
+coroutine.wrap(ZXEWYGZ_fake_script)()
+local function CGRCZYP_fake_script() -- mm2_3.LocalScript 
+	local script = Instance.new('LocalScript', mm2_3)
 
 	
 	local UserInputService = game:GetService("UserInputService")
@@ -3897,9 +2861,9 @@ local function ZHWM_fake_script() -- mm2_4.LocalScript
 	makeDraggable(frameToDrag)
 	
 end
-coroutine.wrap(ZHWM_fake_script)()
-local function CVBOU_fake_script() -- close_7.LocalScript 
-	local script = Instance.new('LocalScript', close_7)
+coroutine.wrap(CGRCZYP_fake_script)()
+local function RLCE_fake_script() -- close_6.LocalScript 
+	local script = Instance.new('LocalScript', close_6)
 
 	function Click(mouse)
 	
@@ -3916,9 +2880,9 @@ local function CVBOU_fake_script() -- close_7.LocalScript
 	
 	
 end
-coroutine.wrap(CVBOU_fake_script)()
-local function ZNYGXIJ_fake_script() -- minimize_7.script 
-	local script = Instance.new('LocalScript', minimize_7)
+coroutine.wrap(RLCE_fake_script)()
+local function YWPG_fake_script() -- minimize_6.script 
+	local script = Instance.new('LocalScript', minimize_6)
 
 	function Click(mouse)
 	
@@ -3944,8 +2908,8 @@ local function ZNYGXIJ_fake_script() -- minimize_7.script
 	
 	
 end
-coroutine.wrap(ZNYGXIJ_fake_script)()
-local function SRKBY_fake_script() -- ESP_2.LocalScript 
+coroutine.wrap(YWPG_fake_script)()
+local function TKAJ_fake_script() -- ESP_2.LocalScript 
 	local script = Instance.new('LocalScript', ESP_2)
 
 	local enabled = false
@@ -4038,4 +3002,4 @@ local function SRKBY_fake_script() -- ESP_2.LocalScript
 		end
 	end)
 end
-coroutine.wrap(SRKBY_fake_script)()
+coroutine.wrap(TKAJ_fake_script)()
